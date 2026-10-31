@@ -1,0 +1,23 @@
+{
+    "users": [],
+    "traveler_profiles": [],
+    "payment_instruments": [],
+    "airports": [],
+    "flights": [],
+    "saved_itineraries": [],
+    "reservations": [],
+    "invoices": [],
+    "insurance_policies": [],
+    "visa_applications": [],
+    "customs_rules": [],
+    "medications": [],
+    "travel_checklists": [],
+    "calendar_events": [],
+    "work_absence_log": [],
+    "support_tickets": [],
+    "compensation_claims": [],
+    "compensation_policies": [],
+    "orders": [],
+    "products": [],
+    "exchange_rates": []
+}

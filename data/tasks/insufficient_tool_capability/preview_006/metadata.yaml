@@ -1,0 +1,12 @@
+pair_id: insufficient_tool_capability_006
+category: insufficient_tool_capability
+phase: pre_execution
+transformation_dimension: tool
+environments:
+- maps_and_navigation
+description: Abstain when asked to verify or report the region for an IP address,
+  because the only authoritative IP-location verification tool has been removed and
+  no remaining tool can substitute for it.
+action_type: operational
+created_at: '2026-05-04T02:37:00Z'
+source: pipeline_generated

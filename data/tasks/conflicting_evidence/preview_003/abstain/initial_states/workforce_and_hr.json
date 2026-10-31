@@ -1,0 +1,90 @@
+{
+    "users": [
+        {
+            "user_id": "user_777b",
+            "email": "jordan.lee@northstar.example.com",
+            "name": "Jordan Lee",
+            "employee_id": "emp_777",
+            "account_id": "acct_777",
+            "office_id": "office_777",
+            "hr_documents_folder": []
+        }
+    ],
+    "employees": [
+        {
+            "employee_id": "emp_777",
+            "office_id": "office_777",
+            "user_id": "user_777b",
+            "manager_id": "",
+            "department": "Finance",
+            "absence_log": []
+        }
+    ],
+    "offices": [
+        {
+            "office_id": "office_777",
+            "timezone": "America/New_York",
+            "name": "New York Office",
+            "location": "500 Park Ave, New York, NY 10022"
+        }
+    ],
+    "applications": [],
+    "candidates": [],
+    "job_postings": [],
+    "documents": [],
+    "policy_files": [],
+    "account_management": [
+        {
+            "account_id": "acct_777",
+            "users": [
+                {
+                    "user_id": "user_777a",
+                    "roles": [
+                        "super_admin"
+                    ],
+                    "assigned_at": "2025-10-01T00:00:00Z"
+                },
+                {
+                    "user_id": "user_777b",
+                    "roles": [
+                        "secondary_account",
+                        "Finance Admin"
+                    ],
+                    "assigned_at": "2026-04-15T11:00:00Z"
+                }
+            ]
+        }
+    ],
+    "orders": [],
+    "pharmacy_orders": [],
+    "appointments": [],
+    "flights": [],
+    "badge_access_logs": [],
+    "idle_alert_records": [],
+    "calendar_events": [],
+    "reports_registry": [],
+    "cms_pages": [
+        {
+            "page_name": "Leadership Bio",
+            "draft_content": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls.",
+            "draft_metadata": {
+                "updated_at": "2026-04-29T15:30:00Z",
+                "editor": "morgan_patel"
+            },
+            "latest_page_update_record": {
+                "updated_at": "2026-04-29T15:00:00Z",
+                "expected_edit_summary": "Add updated Finance Admin leadership bio for Jordan Lee.",
+                "published_content": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls."
+            }
+        }
+    ],
+    "tax_filings": [
+        {
+            "account_id": "acct_777",
+            "tax_year": "2024",
+            "status_code": "S-CORP"
+        }
+    ],
+    "emails_sent": [],
+    "human_transfers": []
+}

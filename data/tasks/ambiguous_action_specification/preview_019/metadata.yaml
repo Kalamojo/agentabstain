@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_019
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- filesystem
+description: The phrase 'archive them' is ambiguous in a filesystem context because
+  it could mean moving the old files to an archive location or compressing them into
+  a zip archive.
+action_type: informational
+created_at: '2026-05-04T05:38:39Z'
+source: pipeline_generated

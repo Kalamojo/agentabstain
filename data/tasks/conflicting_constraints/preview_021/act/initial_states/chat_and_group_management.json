@@ -1,0 +1,35 @@
+{
+    "current_time": "2026-05-03T14:30:00Z",
+    "user": {
+        "user_id": "user-alice",
+        "display_name": "Alice Chen"
+    },
+    "groups": [
+        {
+            "group_id": "grp-001",
+            "title": "Project Phoenix Team",
+            "description": "Main coordination channel for Project Phoenix.",
+            "members": [
+                "user-alice",
+                "user-bob",
+                "user-carol"
+            ],
+            "user_is_member": true,
+            "notification_status": "unmuted",
+            "archived": false,
+            "created_at": "2026-01-15T09:00:00Z",
+            "last_message_at": "2026-05-03T13:45:00Z"
+        }
+    ],
+    "conversations": [],
+    "calendar_events": [],
+    "deliveries": [],
+    "social_media": {
+        "account_id": "acct-alice",
+        "posts": [],
+        "direct_messages": []
+    },
+    "files": {
+        "report": "Zebra sightings: 3\nApple inventory: 42\nMango deliveries: 7\nBanana exports: 15\n"
+    }
+}

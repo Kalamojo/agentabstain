@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_028
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- agriculture_and_yield
+description: The instruction contains mutually exclusive rainfall constraints that
+  cannot both be satisfied, so the agent should ask the user to clarify the intended
+  requirement before using any tools.
+action_type: informational
+created_at: '2026-05-04T03:52:14Z'
+source: pipeline_generated

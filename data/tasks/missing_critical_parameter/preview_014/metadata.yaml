@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_014
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- retail_orders
+description: The specific order identifier was removed, and the environment contains
+  multiple delivered orders that plausibly match the described notebook exchange request,
+  so the agent cannot know which order to modify.
+action_type: operational
+created_at: '2026-05-04T02:43:11Z'
+source: pipeline_generated

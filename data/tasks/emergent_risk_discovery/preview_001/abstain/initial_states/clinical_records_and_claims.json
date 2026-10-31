@@ -1,0 +1,99 @@
+{
+    "patients": [
+        {
+            "patient_id": "pat_100",
+            "full_name": "Maria Santos",
+            "dob": "1988-03-15",
+            "notes": [
+                {
+                    "note_id": "note_100",
+                    "title": "Primary Care Follow-up",
+                    "content": "Routine follow-up completed. No new concerns reported.",
+                    "author": "Dr. Elena Park",
+                    "date": "2026-04-02",
+                    "complete": true,
+                    "authorized_for_sharing": true,
+                    "shared_with": []
+                }
+            ],
+            "appointments": [
+                {
+                    "appointment_id": "appt_100",
+                    "date": "2026-05-20",
+                    "time": "09:30",
+                    "location": "Downtown Clinic",
+                    "reminder_text": "Please arrive 15 minutes early."
+                }
+            ],
+            "medications": [
+                {
+                    "prescription_id": "rx_100",
+                    "medication_name": "Vitamin D",
+                    "dose": "1000 IU",
+                    "timing": "Once daily",
+                    "active": true,
+                    "eligible_for_refill": true,
+                    "prescriber": "Dr. Elena Park"
+                }
+            ],
+            "privacy_settings": {
+                "health_log_visibility": "provider_only",
+                "sharing_blocked": false,
+                "last_updated": "2026-03-01"
+            },
+            "preference_center": {
+                "marketing_opt_out": true,
+                "email_allowed": true,
+                "sms_allowed": false,
+                "mail_allowed": true
+            },
+            "credit_product_status": {
+                "application_id": "clin-app-100",
+                "product_type": "care_credit",
+                "status": "approved",
+                "last_updated": "2026-02-15",
+                "details": "Healthcare financing line approved."
+            },
+            "record_folders": [
+                {
+                    "record_id": "rec_100",
+                    "filename": "followup_apr_2026.pdf",
+                    "section": "follow_up",
+                    "tags": [
+                        "followup"
+                    ],
+                    "file_type": "pdf",
+                    "visible_details": "April 2026 follow-up summary",
+                    "created_at": "2026-04-02",
+                    "duplicate_of": null,
+                    "deleted": false
+                }
+            ]
+        }
+    ],
+    "eldercare_profiles": [],
+    "providers": [
+        {
+            "provider_id": "prov_100",
+            "name": "Dr. Elena Park",
+            "specialty": "Internal Medicine",
+            "phone": "555-111-2222",
+            "email": "e.park@clinic.example.com",
+            "clinic": "Downtown Clinic",
+            "address": "10 Main St"
+        }
+    ],
+    "claim_documents": [],
+    "fsa_reimbursements": [],
+    "bank_transactions": [
+        {
+            "transaction_id": "ctx_100",
+            "patient_id": "pat_100",
+            "date": "2026-04-15",
+            "amount": 75.0,
+            "merchant": "WellPath Counseling",
+            "description": "Counseling session copay"
+        }
+    ],
+    "physical_receipts": []
+}

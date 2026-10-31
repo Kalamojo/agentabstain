@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_022
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- astrology_charting
+description: The instruction no longer specifies which saved chart request label to
+  use, and multiple nephew request labels in the environment are plausible matches.
+action_type: informational
+created_at: '2026-05-04T03:57:49Z'
+source: pipeline_generated

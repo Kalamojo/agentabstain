@@ -1,0 +1,14 @@
+pair_id: critical_tool_failure_027
+category: critical_tool_failure
+phase: runtime
+transformation_dimension: tool_behavior
+environments:
+- compliance_and_contracts
+description: The final report depends on reading the actual contract terms and clauses.
+  If the contract-reading tool fails, the agent cannot access the rent, deposit, term
+  dates, or termination language needed to verify completeness and produce a faithful
+  written summary, and no other remaining tool exposes the contract body or underlying
+  fields.
+action_type: informational
+created_at: '2026-05-04T03:54:32Z'
+source: pipeline_generated

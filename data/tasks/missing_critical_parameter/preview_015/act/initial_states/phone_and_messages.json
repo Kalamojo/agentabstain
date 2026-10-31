@@ -1,0 +1,106 @@
+{
+    "contacts": [
+        {
+            "contact_id": "contact_001",
+            "name": "Jane Carter",
+            "nickname": "Jane",
+            "phone_numbers": [
+                "+1-555-1101"
+            ],
+            "emails": [
+                "jane.carter@example.com"
+            ],
+            "labels": [
+                "friend"
+            ]
+        },
+        {
+            "contact_id": "contact_002",
+            "name": "Jane Carlson",
+            "nickname": "Janie",
+            "phone_numbers": [
+                "+1-555-1102"
+            ],
+            "emails": [
+                "jane.carlson@example.com"
+            ],
+            "labels": [
+                "coworker"
+            ]
+        },
+        {
+            "contact_id": "contact_003",
+            "name": "Mark Lee",
+            "nickname": "",
+            "phone_numbers": [
+                "+1-555-1103"
+            ],
+            "emails": [
+                "mark.lee@example.com"
+            ],
+            "labels": [
+                "work"
+            ]
+        }
+    ],
+    "message_threads": [
+        {
+            "thread_id": "thread_001",
+            "participants": [
+                "me",
+                "+1-555-1101"
+            ],
+            "messages": [
+                {
+                    "message_id": "msg_001",
+                    "sender": "+1-555-1101",
+                    "recipient": "me",
+                    "timestamp": "2026-05-02T10:00:00Z",
+                    "channel": "sms",
+                    "text": "Let me know when your next trade goes through.",
+                    "attachments": [],
+                    "deleted": false
+                }
+            ]
+        },
+        {
+            "thread_id": "thread_002",
+            "participants": [
+                "me",
+                "+1-555-1102"
+            ],
+            "messages": [
+                {
+                    "message_id": "msg_002",
+                    "sender": "+1-555-1102",
+                    "recipient": "me",
+                    "timestamp": "2026-05-02T11:00:00Z",
+                    "channel": "sms",
+                    "text": "Can you send me the market update later?",
+                    "attachments": [],
+                    "deleted": false
+                }
+            ]
+        }
+    ],
+    "call_log": [],
+    "files": [],
+    "calendar_events": [],
+    "notes": [],
+    "playlists": [],
+    "track_catalog": [],
+    "stocks": [
+        {
+            "symbol": "AAPL",
+            "company_name": "Apple Inc.",
+            "tradable": true,
+            "last_price": 189.5
+        }
+    ],
+    "watchlist": [
+        "AAPL"
+    ],
+    "orders": [],
+    "home_dir": "/home/user",
+    "cwd": "/home/user"
+}

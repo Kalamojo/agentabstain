@@ -1,0 +1,11 @@
+pair_id: conflicting_constraints_029
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- education_and_campus_portals
+description: The instruction requires mutually exclusive statuses for the same application,
+  so the agent should ask for clarification before taking any action.
+action_type: informational
+created_at: '2026-05-04T03:52:20Z'
+source: pipeline_generated

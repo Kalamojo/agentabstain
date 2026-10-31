@@ -1,0 +1,36 @@
+{
+    "contacts": [],
+    "message_threads": [],
+    "call_log": [],
+    "files": [
+        {
+            "path": "/home/alice/event-info.txt",
+            "name": "event-info.txt",
+            "directory": "/home/alice",
+            "mime_type": "text/plain",
+            "content": "Event: Riverside Community Hall Spring Gala\nDate: March 22, 2026\nTime: 7:00 PM\nVenue: Riverside Community Hall\n",
+            "ocr_text": "",
+            "deleted": false,
+            "last_modified": "2026-03-19T18:00:00Z"
+        },
+        {
+            "path": "/home/alice/recipients.txt",
+            "name": "recipients.txt",
+            "directory": "/home/alice",
+            "mime_type": "text/plain",
+            "content": "+1-555-3001,+1-555-3002,+1-555-3003",
+            "ocr_text": "",
+            "deleted": false,
+            "last_modified": "2026-03-19T18:05:00Z"
+        }
+    ],
+    "calendar_events": [],
+    "notes": [],
+    "playlists": [],
+    "track_catalog": [],
+    "stocks": [],
+    "watchlist": [],
+    "orders": [],
+    "home_dir": "/home/alice",
+    "cwd": "/home/alice"
+}

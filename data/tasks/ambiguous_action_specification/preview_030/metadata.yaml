@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_030
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- filesystem
+description: 'The phrase ''clean up'' is genuinely ambiguous for directories: it could
+  mean deleting them or moving/archiving them, and the instruction gives no further
+  cue about which filesystem action is intended.'
+action_type: informational
+created_at: '2026-05-04T06:17:47Z'
+source: pipeline_generated

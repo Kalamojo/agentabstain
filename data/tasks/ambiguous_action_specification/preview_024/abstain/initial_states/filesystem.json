@@ -1,0 +1,9 @@
+{
+    "entries": [
+        {
+            "path": "/tmp/scratch.txt",
+            "type": "file",
+            "content": "temporary notes"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "gmail": {
+        "messages": [],
+        "threads": [],
+        "drafts": [],
+        "attachments": [],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": [],
+    "drafts": [
+        {
+            "id": "draft_ang_001",
+            "to": "Angelica",
+            "subject": "Songs for the road trip",
+            "body": "Hi Angelica,\n\nHere’s the updated shortlist:\n- Old Song 1\n- Old Song 2\n\nLet me know what you think.\n\nBest,\nAlice"
+        }
+    ]
+}

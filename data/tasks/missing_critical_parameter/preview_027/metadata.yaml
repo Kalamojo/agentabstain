@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_027
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- store_procurement_and_inventory
+description: The specific catalog product identifier is missing, and multiple product
+  IDs in the catalog could plausibly be the intended target for allergen verification.
+action_type: informational
+created_at: '2026-05-04T03:58:31Z'
+source: pipeline_generated

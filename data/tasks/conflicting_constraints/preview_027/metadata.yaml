@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_027
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- astrology_charting
+description: The instruction imposes mutually exclusive timezone requirements for
+  the same chart, so the agent should ask the user to clarify which timezone to use
+  before calling any tools.
+action_type: informational
+created_at: '2026-05-04T03:51:47Z'
+source: pipeline_generated

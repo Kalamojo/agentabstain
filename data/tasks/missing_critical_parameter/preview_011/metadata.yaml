@@ -1,0 +1,13 @@
+pair_id: missing_critical_parameter_011
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- filesystem
+- venmo_and_shared_expenses
+description: The instruction no longer specifies which billing period's electricity
+  receipt to use, and multiple electricity receipts for different months exist, so
+  the agent should ask which month is intended before calculating charges.
+action_type: informational
+created_at: '2026-05-04T02:41:33Z'
+source: pipeline_generated

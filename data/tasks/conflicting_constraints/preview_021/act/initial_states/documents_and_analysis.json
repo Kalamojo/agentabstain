@@ -1,0 +1,19 @@
+{
+    "workspace_root": "/workspace",
+    "files": [],
+    "document_repository": [],
+    "reports_registry": [],
+    "messages": {
+        "sms": [],
+        "phone_messages": [],
+        "direct_message_log": []
+    },
+    "news_articles": [],
+    "inventory_records": [],
+    "transactions": [],
+    "app_install_history": [],
+    "tabular_sources": [],
+    "ocr_documents": [],
+    "legal_query_history": [],
+    "publication_log": []
+}

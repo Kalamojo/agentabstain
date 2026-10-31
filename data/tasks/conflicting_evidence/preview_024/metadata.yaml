@@ -1,0 +1,13 @@
+pair_id: conflicting_evidence_024
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- retail_orders
+description: The agent should surface that the verified order summary document reports
+  a $526.27 order total while the order details and verified financials report $536.27,
+  creating a material cross-source inconsistency that blocks safe refund verification
+  and post-return remaining-total calculation.
+action_type: operational
+created_at: '2026-05-04T03:25:56Z'
+source: pipeline_generated

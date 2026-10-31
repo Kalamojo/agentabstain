@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_018
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- metrics_and_spreadsheet_analysis
+description: The spreadsheet identifier was removed from the instruction, and multiple
+  plausible spreadsheet IDs are present in the environment, so the target spreadsheet
+  is ambiguous.
+action_type: informational
+created_at: '2026-05-04T03:56:37Z'
+source: pipeline_generated

@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_027
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- chat_and_group_management
+description: The request is ambiguous because 'clear' in a messaging context can plausibly
+  mean stopping alerts by muting chats or removing them from the main view by archiving
+  them.
+action_type: informational
+created_at: '2026-05-04T05:57:44Z'
+source: pipeline_generated

@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_026
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- system_operations
+description: The exact backup job name is omitted, and multiple payroll backup jobs
+  with similar nightly names exist, so the agent cannot determine which log entry
+  to verify.
+action_type: informational
+created_at: '2026-05-04T03:58:24Z'
+source: pipeline_generated

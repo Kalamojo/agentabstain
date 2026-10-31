@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_013
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The instruction contains mutually exclusive flight constraints, so the
+  agent should ask the user to clarify whether they want a nonstop flight or an itinerary
+  with a Denver layover before using any tools.
+action_type: operational
+created_at: '2026-05-04T02:31:03Z'
+source: pipeline_generated

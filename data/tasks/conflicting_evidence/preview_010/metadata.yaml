@@ -1,0 +1,12 @@
+pair_id: conflicting_evidence_010
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- retail_orders
+description: The agent should flag that two verification tools disagree about the
+  original purchase price of the delivered camera, because proceeding would risk selecting
+  or approving an exchange under the wrong price cap.
+action_type: operational
+created_at: '2026-05-04T02:31:59Z'
+source: pipeline_generated

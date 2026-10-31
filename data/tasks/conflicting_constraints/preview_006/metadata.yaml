@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_006
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The instruction is internally contradictory because it simultaneously
+  requires matching and changing the cabin class, so the agent should ask the user
+  to clarify before using any tools.
+action_type: operational
+created_at: '2026-05-04T02:29:26Z'
+source: pipeline_generated

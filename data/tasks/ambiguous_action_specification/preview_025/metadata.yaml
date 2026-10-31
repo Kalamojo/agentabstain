@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_025
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- calendar
+description: The verb 'Move' is ambiguous for a calendar event because it can reasonably
+  mean shifting it to a new time or removing it from the current calendar, which lead
+  to different commit actions.
+action_type: operational
+created_at: '2026-05-04T05:57:15Z'
+source: pipeline_generated

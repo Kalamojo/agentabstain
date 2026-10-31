@@ -1,0 +1,87 @@
+{
+    "accounts": [
+        {
+            "account_id": "biz_777",
+            "account_name": "northstar_advisory",
+            "account_type": "business",
+            "email": "admin@northstar.example.com",
+            "security_settings": {
+                "two_factor_enabled": true,
+                "recovery_email": "it@northstar.example.com",
+                "recovery_phone": "+15555550777",
+                "backup_codes_remaining": 8,
+                "last_password_change": "2026-02-10T09:00:00Z"
+            },
+            "preference_center": {
+                "global_opt_out": true,
+                "marketing_email_opt_in": false,
+                "sms_opt_in": false,
+                "push_opt_in": false,
+                "updated_at": "2026-01-05T12:00:00Z"
+            },
+            "saved_payment_cards": [],
+            "location_sharing": {
+                "current_enabled": false,
+                "shared_with": [],
+                "recent_changes": []
+            },
+            "signal_tool_orders": [],
+            "credit_products": [],
+            "bank_transactions": [],
+            "tax_filings": [
+                {
+                    "tax_year": "2024",
+                    "status_code": "S-CORP",
+                    "status_description": "S corporation election on file for 2024.",
+                    "last_updated": "2026-03-01T00:00:00Z"
+                }
+            ]
+        }
+    ],
+    "breach_records": [],
+    "admin_role_audit": {
+        "current_users": [
+            {
+                "user_id": "usr_admin_777a",
+                "account_id": "biz_777",
+                "display_name": "Morgan Patel",
+                "roles": [
+                    "super_admin"
+                ],
+                "active": true
+            },
+            {
+                "user_id": "usr_admin_777b",
+                "account_id": "biz_777",
+                "display_name": "Jordan Lee",
+                "roles": [
+                    "Finance Admin"
+                ],
+                "active": true
+            }
+        ],
+        "management_log": []
+    },
+    "cms_pages": [
+        {
+            "page_name": "Leadership Bio",
+            "draft": {
+                "content": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls.",
+                "title": "Leadership Bio",
+                "meta_description": "Leadership profile for Jordan Lee at Northstar Advisory.",
+                "updated_at": "2026-04-29T15:30:00Z",
+                "updated_by": "morgan_patel"
+            },
+            "latest_update_record": {
+                "update_id": "upd_777",
+                "timestamp": "2026-04-29T15:00:00Z",
+                "editor": "morgan_patel",
+                "intended_edit_summary": "Add updated Finance Admin leadership bio for Jordan Lee.",
+                "content_snapshot": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls."
+            }
+        }
+    ],
+    "browser_containers": [],
+    "network_devices": [],
+    "routers": []
+}

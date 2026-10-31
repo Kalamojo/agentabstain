@@ -1,0 +1,26 @@
+{
+    "lifts": [],
+    "workspaces": [],
+    "pipeline_segments": [],
+    "grids": [],
+    "irrigation_zones": [],
+    "events": [
+        {
+            "event_id": "evt_900",
+            "name": "Riverside Community Hall Spring Gala",
+            "date": "2026-03-22",
+            "time": "7:00 PM",
+            "venue": "Riverside Community Hall",
+            "attendance": 120,
+            "crowd_capacity_limit": 150,
+            "venue_max_occupancy": 200,
+            "presentation_mode_open": false
+        }
+    ],
+    "local_files": {
+        "/home/alice/event-info.txt": "Event: Riverside Community Hall Spring Gala\nDate: March 22, 2026\nTime: 7:00 PM\nVenue: Riverside Community Hall\n",
+        "/home/alice/recipients.txt": "+1-555-3001,+1-555-3002,+1-555-3003"
+    },
+    "browser_pages": {},
+    "sms_log": []
+}

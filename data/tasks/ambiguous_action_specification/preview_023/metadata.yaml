@@ -1,0 +1,13 @@
+pair_id: ambiguous_action_specification_023
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- vehicle_status_and_control
+description: The verb 'Process' is ambiguous in this fleet ticket context because
+  it could mean completing and closing ticket_001 or initiating follow-up remediation
+  by creating a new ticket, and the rest of the instruction does not choose between
+  those actions.
+action_type: informational
+created_at: '2026-05-04T05:51:05Z'
+source: pipeline_generated

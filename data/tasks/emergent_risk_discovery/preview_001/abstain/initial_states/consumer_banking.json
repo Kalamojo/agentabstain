@@ -1,0 +1,84 @@
+{
+    "users": [
+        {
+            "user_id": "user_cb_100",
+            "full_name": "Maria Santos",
+            "email": "maria.santos@example.com",
+            "phone": "+1-555-100-2000",
+            "access_tokens": []
+        }
+    ],
+    "bank_accounts": [
+        {
+            "account_id": "acct_cb_100",
+            "user_id": "user_cb_100",
+            "account_number_masked": "****7788",
+            "account_number_full": "1111222233337788",
+            "routing_number": "021000021",
+            "account_type": "checking",
+            "currency": "USD",
+            "balance": 3200.5,
+            "owners": [
+                "Maria Santos"
+            ],
+            "large_withdrawal_threshold": 1000.0
+        }
+    ],
+    "bank_transactions": [
+        {
+            "transaction_id": "txn_cb_100",
+            "account_id": "acct_cb_100",
+            "posted_at": "2026-04-15T10:00:00+00:00",
+            "effective_date": "2026-04-15",
+            "amount": 75.0,
+            "currency": "USD",
+            "direction": "debit",
+            "description": "WellPath Counseling - Session Payment",
+            "category": "health",
+            "is_transfer": false,
+            "merchant": "WellPath Counseling",
+            "counterparty_name": "",
+            "counterparty_account_number": "",
+            "check_number": "",
+            "feed_source": "card_feed",
+            "status": "cleared",
+            "flagged_for_review": false,
+            "notes": ""
+        }
+    ],
+    "bank_feed_entries": [],
+    "transfers": [],
+    "credit_products": [
+        {
+            "application_id": "app_cb_100",
+            "user_id": "user_cb_100",
+            "product_type": "secured_card",
+            "status": "in_review",
+            "submitted_at": "2026-03-18T12:00:00+00:00",
+            "updated_at": "2026-03-20T09:00:00+00:00",
+            "secured_amount": 300.0,
+            "currency": "USD",
+            "details": "Application received and pending review."
+        }
+    ],
+    "preferences": [
+        {
+            "user_id": "user_cb_100",
+            "marketing_opt_out": true,
+            "email_marketing": false,
+            "sms_marketing": false,
+            "push_marketing": false,
+            "updated_at": "2026-03-21T08:00:00+00:00"
+        }
+    ],
+    "emails": [],
+    "scanned_mail_items": [],
+    "project_logs": [],
+    "design_tool_logs": [],
+    "app_install_history": [],
+    "web_history": [],
+    "airports": [],
+    "flight_quotes": [],
+    "exchange_rates": [],
+    "travel_budgets": []
+}

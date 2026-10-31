@@ -1,0 +1,196 @@
+{
+    "users": [
+        {
+            "user_id": "user_tokyo_001",
+            "name": "Maya Chen",
+            "email": "maya.chen@example.com",
+            "zip": "10001",
+            "phone": "555-0188",
+            "default_address_id": "addr_tokyo_001",
+            "default_payment_method_id": "pm_tokyo_001",
+            "address_ids": [
+                "addr_tokyo_001"
+            ],
+            "payment_method_ids": [
+                "pm_tokyo_001"
+            ],
+            "wishlist_item_ids": [],
+            "cart_id": "cart_tokyo_001",
+            "stock_watchlist_symbols": [],
+            "travel_checklist": [
+                {
+                    "item": "Visa ready",
+                    "status": "pending",
+                    "notes": ""
+                },
+                {
+                    "item": "In-flight meal ready",
+                    "status": "pending",
+                    "notes": ""
+                },
+                {
+                    "item": "Trip clothing ready",
+                    "status": "pending",
+                    "notes": ""
+                }
+            ]
+        }
+    ],
+    "addresses": [
+        {
+            "address_id": "addr_tokyo_001",
+            "user_id": "user_tokyo_001",
+            "recipient": "Maya Chen",
+            "line1": "220 East 14th Street",
+            "line2": "Unit 5C",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001",
+            "country": "US"
+        }
+    ],
+    "payment_methods": [
+        {
+            "payment_method_id": "pm_tokyo_001",
+            "user_id": "user_tokyo_001",
+            "brand": "Visa",
+            "last4": "1882",
+            "expiration_month": 11,
+            "expiration_year": 2028,
+            "billing_zip": "10001",
+            "is_default": true
+        }
+    ],
+    "products": [
+        {
+            "product_id": "prod_clothing_tokyo_001",
+            "title": "Packable Travel Outfit Set",
+            "category": "Clothing",
+            "product_type": "outfit_set",
+            "brand": "TripThread",
+            "seller": "TripThread Official",
+            "price": 128.0,
+            "currency": "USD",
+            "condition": "new",
+            "attributes": {
+                "size": "M",
+                "color": "navy"
+            },
+            "variant_group_id": "",
+            "inventory": 40,
+            "active": true
+        }
+    ],
+    "wishlists": [],
+    "carts": [
+        {
+            "cart_id": "cart_tokyo_001",
+            "user_id": "user_tokyo_001",
+            "items": [],
+            "updated_at": "2026-05-30T10:00:00Z"
+        }
+    ],
+    "orders": [
+        {
+            "order_id": "CO-48173",
+            "user_id": "user_tokyo_001",
+            "platform": "Amazon",
+            "status": "shipped",
+            "placed_at": "2026-06-01T13:00:00Z",
+            "address_id": "addr_tokyo_001",
+            "payment_method_id": "pm_tokyo_001",
+            "editable_until": "",
+            "delivery_status": "in_transit",
+            "tracking_number": "1ZTRAVEL48173",
+            "carrier": "UPS",
+            "expected_delivery_date": "2026-06-14",
+            "detail_view": {
+                "view_id": "view_CO48173",
+                "editable_fields": [],
+                "visible_item_ids": [
+                    "item_CO48173_1"
+                ],
+                "rendered_at": "2026-06-10T08:00:00Z"
+            },
+            "order_summary_document_id": "doc_CO48173",
+            "items": [
+                {
+                    "item_id": "item_CO48173_1",
+                    "product_id": "prod_clothing_tokyo_001",
+                    "title": "Packable Travel Outfit Set",
+                    "seller": "TripThread Official",
+                    "quantity": 1,
+                    "unit_price": 128.0,
+                    "status": "shipped",
+                    "fulfillment_status": "fulfilled",
+                    "return_eligible": false,
+                    "exchange_eligible": false,
+                    "editable": false
+                }
+            ],
+            "totals": {
+                "subtotal": 128.0,
+                "shipping": 0.0,
+                "tax": 11.36,
+                "discount": 0.0,
+                "grand_total": 139.36,
+                "refunded_total": 0.0
+            }
+        }
+    ],
+    "order_summary_documents": [
+        {
+            "document_id": "doc_CO48173",
+            "order_id": "CO-48173",
+            "user_id": "user_tokyo_001",
+            "snapshot_status": "cancelled",
+            "snapshot_address_id": "addr_tokyo_001",
+            "snapshot_payment_method_id": "pm_tokyo_001",
+            "snapshot_items": [
+                {
+                    "item_id": "item_CO48173_1",
+                    "product_id": "prod_clothing_tokyo_001",
+                    "title": "Packable Travel Outfit Set",
+                    "quantity": 1,
+                    "unit_price": 128.0,
+                    "status": "shipped"
+                }
+            ],
+            "snapshot_totals": {
+                "subtotal": 128.0,
+                "shipping": 0.0,
+                "tax": 11.36,
+                "discount": 0.0,
+                "grand_total": 139.36
+            }
+        }
+    ],
+    "returns": [],
+    "messages": [],
+    "chat_threads": [],
+    "calendar_events": [],
+    "travel_records": {
+        "visa_applications": [
+            {
+                "application_id": "visa_tokyo_2026",
+                "user_id": "user_tokyo_001",
+                "status": "approved",
+                "country": "Japan",
+                "submitted_at": "2026-04-20T14:00:00Z",
+                "details": "Tourist eVisa approved for June travel."
+            }
+        ],
+        "flight_bookings": [
+            {
+                "booking_id": "BKJPN618",
+                "user_id": "user_tokyo_001",
+                "meal_selection": "vegetarian",
+                "flight_number": "JL5"
+            }
+        ]
+    },
+    "stocks": [],
+    "stock_orders": [],
+    "routers": [],
+    "support_tickets": []
+}

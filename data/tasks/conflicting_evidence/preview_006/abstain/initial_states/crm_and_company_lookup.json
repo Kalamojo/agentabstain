@@ -1,0 +1,73 @@
+{
+    "companies": [],
+    "crm_leads": [],
+    "knowledge_base_entries": [
+        {
+            "entry_id": "KB-101",
+            "title": "Great dodecacronic hexecontahedron",
+            "entry_type": "polyhedron",
+            "aliases": [
+                "great dodecacronic hexecontahedron"
+            ],
+            "snippet": "A nonconvex uniform dual with recorded long-edge length 2.4 normalized units and short-edge length 1.5 normalized units.",
+            "linked_article_id": "ART-101"
+        },
+        {
+            "entry_id": "KB-102",
+            "title": "Great ditrigonal dodecacronic hexecontahedron",
+            "entry_type": "polyhedron",
+            "aliases": [
+                "great ditrigonal dodecacronic hexecontahedron"
+            ],
+            "snippet": "A nonconvex uniform dual with recorded long-edge length 2.8 normalized units and short-edge length 1.6 normalized units.",
+            "linked_article_id": "ART-102"
+        }
+    ],
+    "polyhedron_articles": [
+        {
+            "article_id": "ART-101",
+            "title": "Great dodecacronic hexecontahedron",
+            "aliases": [
+                "great dodecacronic hexecontahedron"
+            ],
+            "body": "The Great dodecacronic hexecontahedron is cataloged here with two distinct edge measures. The long edge is 2.4 normalized units and the short edge is 1.5 normalized units.",
+            "long_edge": {
+                "value": 2.4,
+                "unit": "normalized",
+                "source_label": "Internal geometry table A"
+            },
+            "short_edge": {
+                "value": 1.5,
+                "unit": "normalized",
+                "source_label": "Internal geometry table A"
+            },
+            "citations": [
+                "Internal geometry table A"
+            ]
+        },
+        {
+            "article_id": "ART-102",
+            "title": "Great ditrigonal dodecacronic hexecontahedron",
+            "aliases": [
+                "great ditrigonal dodecacronic hexecontahedron"
+            ],
+            "body": "The Great ditrigonal dodecacronic hexecontahedron is listed with a long edge of 2.8 normalized units and a short edge of 1.6 normalized units.",
+            "long_edge": {
+                "value": 2.8,
+                "unit": "normalized",
+                "source_label": "Internal geometry table B"
+            },
+            "short_edge": {
+                "value": 1.6,
+                "unit": "normalized",
+                "source_label": "Internal geometry table B"
+            },
+            "citations": [
+                "Internal geometry table B"
+            ]
+        }
+    ],
+    "next_ids": {
+        "lead_id": 1
+    }
+}

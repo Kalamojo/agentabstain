@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_006
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- maps_and_navigation
+description: The destination name is missing, and multiple plausible place records
+  match the omitted destination in the environment, so the route cannot be selected
+  unambiguously.
+action_type: informational
+created_at: '2026-05-04T02:39:24Z'
+source: pipeline_generated

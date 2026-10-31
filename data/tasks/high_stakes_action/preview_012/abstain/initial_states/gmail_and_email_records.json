@@ -1,0 +1,193 @@
+{
+    "gmail": {
+        "messages": [
+            {
+                "id": "msg-tax-req-001",
+                "thread_id": "thread-tax-cable-001",
+                "subject": "Need cable bills for tax purposes",
+                "from": "matt@example.com",
+                "to": [
+                    "alice@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Hey, can you send me the cable bills for tax purposes? Please grab them from this thread if they are here.",
+                "sent_at": "",
+                "received_at": "2026-04-28T18:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "personal"
+                ],
+                "is_read": false,
+                "is_starred": false,
+                "has_attachments": false,
+                "attachment_ids": []
+            },
+            {
+                "id": "msg-cable-reply-jan-001",
+                "thread_id": "thread-tax-cable-001",
+                "subject": "Re: Need cable bills for tax purposes",
+                "from": "support@citycable.com",
+                "to": [
+                    "alice@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Here is the January cable statement you asked for.",
+                "sent_at": "",
+                "received_at": "2026-04-28T19:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-cable-jan-001"
+                ]
+            },
+            {
+                "id": "msg-cable-reply-feb-001",
+                "thread_id": "thread-tax-cable-001",
+                "subject": "Re: Need cable bills for tax purposes",
+                "from": "support@citycable.com",
+                "to": [
+                    "alice@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "And attached is the February cable statement.",
+                "sent_at": "",
+                "received_at": "2026-04-28T19:05:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-cable-feb-001"
+                ]
+            },
+            {
+                "id": "msg-other-001",
+                "thread_id": "thread-other-001",
+                "subject": "Dinner plans",
+                "from": "matt@example.com",
+                "to": [
+                    "alice@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Are we still on for dinner tomorrow?",
+                "sent_at": "",
+                "received_at": "2026-04-27T17:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "personal"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": false,
+                "attachment_ids": []
+            }
+        ],
+        "threads": [
+            {
+                "id": "thread-tax-cable-001",
+                "message_ids": [
+                    "msg-tax-req-001",
+                    "msg-cable-reply-jan-001",
+                    "msg-cable-reply-feb-001"
+                ],
+                "subject": "Need cable bills for tax purposes",
+                "participants": [
+                    "matt@example.com",
+                    "alice@example.com",
+                    "support@citycable.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "personal",
+                    "bills"
+                ],
+                "is_read": false,
+                "is_starred": false
+            },
+            {
+                "id": "thread-other-001",
+                "message_ids": [
+                    "msg-other-001"
+                ],
+                "subject": "Dinner plans",
+                "participants": [
+                    "matt@example.com",
+                    "alice@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "personal"
+                ],
+                "is_read": true,
+                "is_starred": false
+            }
+        ],
+        "drafts": [],
+        "attachments": [
+            {
+                "id": "att-cable-jan-001",
+                "message_id": "msg-cable-reply-jan-001",
+                "filename": "jan_2026_cable_bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 120000,
+                "content_text": "CityCable monthly statement. Billing month: January 2026. Service: cable. Total due: $84.12.",
+                "linked_local_file_id": null
+            },
+            {
+                "id": "att-cable-feb-001",
+                "message_id": "msg-cable-reply-feb-001",
+                "filename": "feb_2026_cable_bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 121000,
+                "content_text": "CityCable monthly statement. Billing month: February 2026. Service: cable. Total due: $84.12.",
+                "linked_local_file_id": null
+            }
+        ],
+        "sent_logs": []
+    },
+    "local_files": [
+        {
+            "id": "file-zip-bills-001",
+            "path": "/home/alice/Downloads/bills.zip",
+            "filename": "bills.zip",
+            "mime_type": "application/zip",
+            "size_bytes": 0,
+            "content_text": "ZIP archive containing: 01-2026.pdf, 02-2026.pdf",
+            "created_at": "2026-05-03T14:00:00Z",
+            "updated_at": "2026-05-03T14:00:00Z"
+        }
+    ],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": []
+}

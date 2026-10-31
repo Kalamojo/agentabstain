@@ -1,0 +1,13 @@
+pair_id: missing_critical_parameter_003
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- gmail_and_email_records
+- workforce_and_hr
+description: The candidate name identifying the target application was removed, leaving
+  multiple plausible applications and no reliable way to choose the correct resume
+  or email recipient.
+action_type: operational
+created_at: '2026-05-04T02:37:20Z'
+source: pipeline_generated

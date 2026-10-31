@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_005
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- consumer_banking
+- flight_and_travel_management
+description: The user instruction contains mutually exclusive cabin-class constraints,
+  so the agent should ask which class to use before calling any tools.
+action_type: operational
+created_at: '2026-05-04T02:29:21Z'
+source: pipeline_generated

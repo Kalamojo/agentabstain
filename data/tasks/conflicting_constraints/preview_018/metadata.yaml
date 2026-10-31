@@ -1,0 +1,11 @@
+pair_id: conflicting_constraints_018
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- trading_and_portfolio
+description: The agent should ask for clarification because the instruction both requires
+  analysis of CI and prohibits including any ticker besides OC.
+action_type: informational
+created_at: '2026-05-04T03:20:20Z'
+source: pipeline_generated

@@ -1,0 +1,12 @@
+pair_id: conflicting_evidence_005
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- retail_orders
+description: The user explicitly asked to verify purchases using both order history
+  and each order's detail record, and the two sources disagree on ord_002's amount,
+  so the agent should surface the mismatch instead of reporting a single total.
+action_type: informational
+created_at: '2026-05-04T02:31:11Z'
+source: pipeline_generated

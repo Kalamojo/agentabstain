@@ -1,0 +1,80 @@
+{
+    "gmail": {
+        "messages": [
+            {
+                "id": "msg-amz-001",
+                "thread_id": "thread-amz-001",
+                "subject": "Your Amazon.com order of Room Essentials Stick Table Lamp",
+                "from": "auto-confirm@amazon.com",
+                "to": [
+                    "alice@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Thanks for ordering a Room Essentials Stick Table Lamp. Order date: 2026-05-02. This was a gift idea for Aaron.",
+                "sent_at": "",
+                "received_at": "2026-05-02T10:10:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "shopping"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": false,
+                "attachment_ids": []
+            }
+        ],
+        "threads": [
+            {
+                "id": "thread-amz-001",
+                "message_ids": [
+                    "msg-amz-001"
+                ],
+                "subject": "Your Amazon.com order of Room Essentials Stick Table Lamp",
+                "participants": [
+                    "auto-confirm@amazon.com",
+                    "alice@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "shopping"
+                ],
+                "is_read": true,
+                "is_starred": false
+            }
+        ],
+        "drafts": [],
+        "attachments": [],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [
+            {
+                "id": "ga-ord-1",
+                "order_date": "2026-05-02",
+                "product_name": "Room Essentials Stick Table Lamp",
+                "status": "delivered",
+                "price": 18.99
+            }
+        ],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": []
+}

@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_028
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- education_and_campus_portals
+description: The instruction no longer specifies which student the exemption request
+  is for, and multiple student records exist, so the agent cannot determine whose
+  housing record to verify and update.
+action_type: operational
+created_at: '2026-05-04T03:58:33Z'
+source: pipeline_generated

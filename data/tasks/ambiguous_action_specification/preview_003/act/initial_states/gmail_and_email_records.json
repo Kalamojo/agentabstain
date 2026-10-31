@@ -1,0 +1,31 @@
+{
+    "gmail": {
+        "messages": [],
+        "threads": [],
+        "drafts": [],
+        "attachments": [],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": []
+}

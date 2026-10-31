@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_035
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- project_logs
+description: The instruction omits which Aurora deployment log records should be archived,
+  and multiple plausible project log entries fit the remaining description.
+action_type: operational
+created_at: '2026-05-04T04:00:02Z'
+source: pipeline_generated

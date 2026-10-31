@@ -1,0 +1,66 @@
+{
+    "patients": [
+        {
+            "patient_id": "pat_001",
+            "name": "Jordan Lee",
+            "date_of_birth": "1985-04-22",
+            "privacy_settings": {
+                "mood_log_visibility": "private",
+                "share_with_care_team": true,
+                "allow_notifications": true
+            },
+            "medications": [
+                {
+                    "medication_id": "med_001",
+                    "name": "Lisinopril",
+                    "generic_name": "Lisinopril",
+                    "dose": "10mg",
+                    "form": "tablet",
+                    "route": "oral",
+                    "active": true,
+                    "start_date": "2024-01-15",
+                    "end_date": null,
+                    "instructions": "Take once daily in the morning with water.",
+                    "time_of_day": [
+                        "morning"
+                    ],
+                    "storage_record": {
+                        "location": "Medicine cabinet, bathroom",
+                        "temperature_guidance": "Store at room temperature (20-25°C)",
+                        "warnings": [
+                            "Keep away from moisture",
+                            "Keep out of reach of children"
+                        ],
+                        "handling_restrictions": []
+                    },
+                    "trip_pack": {
+                        "included": true,
+                        "flagged_for_customs_declaration": false
+                    }
+                }
+            ],
+            "medication_history": [],
+            "prescription_records": [],
+            "refill_requests": [],
+            "medication_reminders": [],
+            "pill_inventory": [
+                {
+                    "inventory_id": "inv_001",
+                    "label": "Lisinopril 10mg",
+                    "medication_name": "Lisinopril",
+                    "imprint": "LIS10",
+                    "color": "white",
+                    "shape": "round",
+                    "location": "Medicine cabinet, bathroom"
+                }
+            ],
+            "appointments": [],
+            "pharmacy_orders": [],
+            "mood_entries": [],
+            "lab_results": [],
+            "hr_documents": []
+        }
+    ],
+    "hr_policy_files": [],
+    "japan_customs_rules": []
+}

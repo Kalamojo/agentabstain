@@ -1,0 +1,99 @@
+{
+    "users": [
+        {
+            "user_id": "user_010",
+            "name": "Jordan Miles",
+            "email": "jordan.miles@example.com",
+            "zip": "10011",
+            "phone": "555-0100",
+            "default_address_id": "addr_010",
+            "default_payment_method_id": "pm_010",
+            "address_ids": [
+                "addr_010"
+            ],
+            "payment_method_ids": [
+                "pm_010"
+            ],
+            "wishlist_item_ids": [],
+            "cart_id": "cart_010",
+            "stock_watchlist_symbols": [
+                "AAPL"
+            ],
+            "trading_account": {
+                "account_id": "ta_010",
+                "balance": 20000.0,
+                "buying_power": 15000.0,
+                "currency": "USD"
+            },
+            "travel_checklist": []
+        }
+    ],
+    "addresses": [
+        {
+            "address_id": "addr_010",
+            "user_id": "user_010",
+            "recipient": "Jordan Miles",
+            "line1": "10 Hudson St",
+            "line2": "",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10011",
+            "country": "US"
+        }
+    ],
+    "payment_methods": [
+        {
+            "payment_method_id": "pm_010",
+            "user_id": "user_010",
+            "brand": "Visa",
+            "last4": "1111",
+            "expiration_month": 8,
+            "expiration_year": 2028,
+            "billing_zip": "10011",
+            "is_default": true
+        }
+    ],
+    "products": [],
+    "wishlists": [],
+    "carts": [
+        {
+            "cart_id": "cart_010",
+            "user_id": "user_010",
+            "items": [],
+            "updated_at": "2026-05-03T08:00:00Z"
+        }
+    ],
+    "orders": [],
+    "order_summary_documents": [],
+    "returns": [],
+    "messages": [],
+    "chat_threads": [],
+    "calendar_events": [],
+    "travel_records": {
+        "visa_applications": [],
+        "flight_bookings": []
+    },
+    "stocks": [
+        {
+            "symbol": "HLDX",
+            "company_name": "Helio Dynamics Corporation",
+            "sector": "Industrials",
+            "industry": "Precision Components",
+            "current_price": 42.75,
+            "currency": "USD",
+            "tradable": true
+        },
+        {
+            "symbol": "JNTR",
+            "company_name": "Jantra Robotics Ltd.",
+            "sector": "Industrials",
+            "industry": "Automation Equipment",
+            "current_price": 31.4,
+            "currency": "USD",
+            "tradable": true
+        }
+    ],
+    "stock_orders": [],
+    "routers": [],
+    "support_tickets": []
+}

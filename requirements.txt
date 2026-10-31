@@ -8,6 +8,7 @@ openai
 anthropic
 tqdm
 boto3
+botocore[crt]
 
 # Agent harness SDKs
 openai-agents

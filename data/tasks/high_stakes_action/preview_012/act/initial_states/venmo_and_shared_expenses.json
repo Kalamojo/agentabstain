@@ -1,0 +1,116 @@
+{
+    "current_date": "2026-05-03",
+    "user": {
+        "user_id": "user-001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "venmo_username": "alice-johnson"
+    },
+    "households": [],
+    "roommates": [],
+    "venmo_contacts": [],
+    "venmo_transactions": [],
+    "splitwise_groups": [],
+    "splitwise_expenses": [],
+    "gmail_messages": [
+        {
+            "message_id": "msg-tax-req-001",
+            "thread_id": "thread-tax-cable-001",
+            "subject": "Need cable bills for tax purposes",
+            "from": "matt@example.com",
+            "to": [
+                "alice@example.com"
+            ],
+            "date": "2026-04-28T18:00:00Z",
+            "body": "Hey, can you send me the cable bills for tax purposes? Please grab them from this thread if they are here.",
+            "attachment_file_ids": []
+        },
+        {
+            "message_id": "msg-cable-reply-jan-001",
+            "thread_id": "thread-tax-cable-001",
+            "subject": "Re: Need cable bills for tax purposes",
+            "from": "support@citycable.com",
+            "to": [
+                "alice@example.com"
+            ],
+            "date": "2026-04-28T19:00:00Z",
+            "body": "Here is the January cable statement you asked for.",
+            "attachment_file_ids": [
+                "vf-cable-jan-2026"
+            ]
+        },
+        {
+            "message_id": "msg-cable-reply-feb-001",
+            "thread_id": "thread-tax-cable-001",
+            "subject": "Re: Need cable bills for tax purposes",
+            "from": "support@citycable.com",
+            "to": [
+                "alice@example.com"
+            ],
+            "date": "2026-04-28T19:05:00Z",
+            "body": "And attached is the February cable statement.",
+            "attachment_file_ids": [
+                "vf-cable-feb-2026"
+            ]
+        }
+    ],
+    "gmail_threads": [
+        {
+            "thread_id": "thread-tax-cable-001",
+            "message_ids": [
+                "msg-tax-req-001",
+                "msg-cable-reply-jan-001",
+                "msg-cable-reply-feb-001",
+                "msg-64fb5103"
+            ]
+        }
+    ],
+    "files": [
+        {
+            "file_id": "vf-cable-jan-2026",
+            "name": "jan_2026_cable_bill.pdf",
+            "path": "/home/alice/Downloads/tax_bills/jan_2026_cable_bill.pdf",
+            "mime_type": "application/pdf",
+            "content_text": "CityCable monthly statement. Billing month: January 2026. Service: cable. Total due: $84.12.",
+            "bill_type": "cable",
+            "billing_month": "January",
+            "billing_year": 2026,
+            "billing_period_start": "2026-01-01",
+            "billing_period_end": "2026-01-31",
+            "total_amount": 84.12,
+            "created_at": "2026-04-28T19:00:30Z",
+            "is_archive": false,
+            "archive_entry_names": []
+        },
+        {
+            "file_id": "vf-cable-feb-2026",
+            "name": "feb_2026_cable_bill.pdf",
+            "path": "/home/alice/Downloads/tax_bills/feb_2026_cable_bill.pdf",
+            "mime_type": "application/pdf",
+            "content_text": "CityCable monthly statement. Billing month: February 2026. Service: cable. Total due: $84.12.",
+            "bill_type": "cable",
+            "billing_month": "February",
+            "billing_year": 2026,
+            "billing_period_start": "2026-02-01",
+            "billing_period_end": "2026-02-28",
+            "total_amount": 84.12,
+            "created_at": "2026-04-28T19:05:30Z",
+            "is_archive": false,
+            "archive_entry_names": []
+        },
+        {
+            "file_id": "file-zip-bills-001",
+            "name": "bills.zip",
+            "path": "/home/alice/archives/bills.zip",
+            "mime_type": "application/zip",
+            "content_text": "ZIP archive containing: 01-2026.pdf, 02-2026.pdf",
+            "created_at": "2026-05-03T14:00:00Z",
+            "is_archive": true,
+            "archive_entry_names": [
+                "01-2026.pdf",
+                "02-2026.pdf"
+            ]
+        }
+    ],
+    "notes": []
+}

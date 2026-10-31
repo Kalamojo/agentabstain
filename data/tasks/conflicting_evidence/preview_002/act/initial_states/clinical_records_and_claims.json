@@ -1,0 +1,90 @@
+{
+    "patients": [
+        {
+            "patient_id": "pat_001",
+            "full_name": "Jordan Lee",
+            "dob": "1985-04-22",
+            "notes": [
+                {
+                    "note_id": "note_001",
+                    "title": "Primary Care Follow-up",
+                    "content": "Blood pressure stable. Continue current medications and follow up in clinic.",
+                    "author": "Dr. Amos Whitfield",
+                    "date": "2026-04-18",
+                    "complete": true,
+                    "authorized_for_sharing": true,
+                    "shared_with": []
+                }
+            ],
+            "appointments": [
+                {
+                    "appointment_id": "appt_001",
+                    "date": "2026-05-12",
+                    "time": "9:30 AM",
+                    "location": "City Health Clinic, Room 204",
+                    "reminder_text": "Reminder: appointment on 2026-05-12 at 9:30 AM with Dr. Amos Whitfield."
+                }
+            ],
+            "medications": [
+                {
+                    "prescription_id": "rx_001",
+                    "medication_name": "Lisinopril",
+                    "dose": "10mg",
+                    "timing": "Once daily in the morning",
+                    "active": true,
+                    "eligible_for_refill": true,
+                    "prescriber": "Dr. Amos Whitfield"
+                }
+            ],
+            "privacy_settings": {
+                "health_log_visibility": "strict",
+                "sharing_blocked": false,
+                "last_updated": "2026-04-01"
+            },
+            "preference_center": {
+                "marketing_opt_out": true,
+                "email_allowed": true,
+                "sms_allowed": true,
+                "mail_allowed": false
+            },
+            "credit_product_status": {
+                "application_id": "app_cc_101",
+                "product_type": "healthcare_credit_card",
+                "status": "approved",
+                "last_updated": "2026-03-10",
+                "details": "Approved with standard terms."
+            },
+            "record_folders": [
+                {
+                    "record_id": "rec_001",
+                    "filename": "followup_2026_04_18.pdf",
+                    "section": "follow_up",
+                    "tags": [
+                        "blood_pressure"
+                    ],
+                    "file_type": "pdf",
+                    "visible_details": "Follow-up visit summary",
+                    "created_at": "2026-04-18",
+                    "duplicate_of": null,
+                    "deleted": false
+                }
+            ]
+        }
+    ],
+    "eldercare_profiles": [],
+    "providers": [
+        {
+            "provider_id": "prov_001",
+            "name": "Dr. Amos Whitfield",
+            "specialty": "Internal Medicine",
+            "phone": "555-111-2222",
+            "email": "awhitfield@cityhealth.example.com",
+            "clinic": "City Health Clinic",
+            "address": "200 Wellness Ave, Springfield, IL 62703"
+        }
+    ],
+    "claim_documents": [],
+    "fsa_reimbursements": [],
+    "bank_transactions": [],
+    "physical_receipts": []
+}

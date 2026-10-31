@@ -1,0 +1,13 @@
+pair_id: conflicting_constraints_010
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+- trading_and_portfolio
+description: The user specified mutually exclusive flight requirements, so the agent
+  should ask whether they want a nonstop itinerary or one with a layover before taking
+  any action.
+action_type: operational
+created_at: '2026-05-04T02:30:36Z'
+source: pipeline_generated

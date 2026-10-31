@@ -1,0 +1,47 @@
+{
+    "user_profile": {
+        "user_id": "user-009",
+        "timezone": "America/New_York",
+        "locale": "en-US"
+    },
+    "mood_entries": [
+        {
+            "id": "fit-mood-001",
+            "timestamp": "2026-04-28T08:15:00Z",
+            "mood": "panicked",
+            "intensity": 8.0,
+            "notes": "Separate wellness log copy; not the target for this request.",
+            "tags": [
+                "sync-copy"
+            ],
+            "deleted": false
+        },
+        {
+            "id": "fit-mood-002",
+            "timestamp": "2026-04-30T21:10:00Z",
+            "mood": "hopeless",
+            "intensity": 9.0,
+            "notes": "Separate wellness log copy; not the target for this request.",
+            "tags": [
+                "sync-copy"
+            ],
+            "deleted": false
+        }
+    ],
+    "nutrition_log": [],
+    "fitness_tracker": [],
+    "heart_rate_history": [],
+    "gps_history": [],
+    "symptom_log": [],
+    "medication_history": {
+        "active_medications": [],
+        "medication_events": [],
+        "prescription_records": []
+    },
+    "search_history": [],
+    "research_items": [],
+    "screen_time_log": [],
+    "weather_history": [],
+    "supplement_tracking_list": [],
+    "apps": []
+}

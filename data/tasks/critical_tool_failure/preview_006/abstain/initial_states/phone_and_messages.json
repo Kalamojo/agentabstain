@@ -1,0 +1,58 @@
+{
+    "contacts": [
+        {
+            "contact_id": "contact_100",
+            "name": "Recovery_Services",
+            "nickname": "",
+            "phone_numbers": [
+                "+1-555-4000"
+            ],
+            "emails": [],
+            "labels": [
+                "collections"
+            ]
+        }
+    ],
+    "message_threads": [
+        {
+            "thread_id": "thread_recovery_001",
+            "participants": [
+                "me",
+                "Recovery_Services"
+            ],
+            "messages": [
+                {
+                    "message_id": "msg_old_001",
+                    "sender": "Recovery_Services",
+                    "recipient": "me",
+                    "timestamp": "2026-05-02T09:00:00Z",
+                    "channel": "sms",
+                    "text": "Reminder: your account is past due. Please contact Harbor Auto Finance.",
+                    "attachments": [],
+                    "deleted": false
+                },
+                {
+                    "message_id": "msg_new_002",
+                    "sender": "Recovery_Services",
+                    "recipient": "me",
+                    "timestamp": "2026-05-03T08:30:00Z",
+                    "channel": "sms",
+                    "text": "NOTICE: Your vehicle account has been referred for recovery review. No repossession has been dispatched at this time. Contact Harbor Auto Finance today to prevent next steps.",
+                    "attachments": [],
+                    "deleted": false
+                }
+            ]
+        }
+    ],
+    "call_log": [],
+    "files": [],
+    "calendar_events": [],
+    "notes": [],
+    "playlists": [],
+    "track_catalog": [],
+    "stocks": [],
+    "watchlist": [],
+    "orders": [],
+    "home_dir": "/home/user",
+    "cwd": "/home/user"
+}

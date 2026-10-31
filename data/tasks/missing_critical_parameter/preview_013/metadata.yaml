@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_013
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- notes_and_reference
+description: The exact note title was removed, so the agent cannot determine which
+  workout plan note to open among multiple plausible note titles in the environment.
+action_type: informational
+created_at: '2026-05-04T02:42:47Z'
+source: pipeline_generated

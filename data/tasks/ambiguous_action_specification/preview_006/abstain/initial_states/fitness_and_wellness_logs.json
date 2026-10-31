@@ -1,0 +1,144 @@
+{
+    "user_profile": {
+        "user_id": "user-001",
+        "timezone": "America/Chicago",
+        "locale": "en-US"
+    },
+    "mood_entries": [
+        {
+            "id": "mood-001",
+            "timestamp": "2026-05-01T21:00:00Z",
+            "mood": "anxious",
+            "intensity": 6.0,
+            "notes": "Trouble falling asleep, mind racing.",
+            "tags": [
+                "sleep",
+                "stress"
+            ],
+            "deleted": false
+        }
+    ],
+    "nutrition_log": [
+        {
+            "id": "nut-001",
+            "timestamp": "2026-05-02T12:30:00Z",
+            "meal_type": "lunch",
+            "foods": [
+                {
+                    "name": "Grilled chicken salad",
+                    "quantity": "1 bowl",
+                    "calories": 420.0
+                },
+                {
+                    "name": "Banana",
+                    "quantity": "1 medium",
+                    "calories": 105.0
+                }
+            ],
+            "total_calories": 525.0
+        },
+        {
+            "id": "nut-002",
+            "timestamp": "2026-05-02T19:00:00Z",
+            "meal_type": "dinner",
+            "foods": [
+                {
+                    "name": "Salmon",
+                    "quantity": "1 fillet",
+                    "calories": 367.0
+                },
+                {
+                    "name": "Roasted vegetables",
+                    "quantity": "1 plate",
+                    "calories": 180.0
+                }
+            ],
+            "total_calories": 547.0
+        }
+    ],
+    "fitness_tracker": [
+        {
+            "date": "2026-05-02",
+            "steps": 11840.0,
+            "active_minutes": 68.0,
+            "calories_burned": 610.0,
+            "distance_km": 8.7
+        }
+    ],
+    "heart_rate_history": [
+        {
+            "timestamp": "2026-05-02T06:00:00Z",
+            "bpm": 57.0,
+            "source": "wearable"
+        }
+    ],
+    "gps_history": [
+        {
+            "timestamp": "2026-05-02T07:00:00Z",
+            "latitude": 40.1164,
+            "longitude": -88.2434,
+            "label": "Home"
+        }
+    ],
+    "symptom_log": [],
+    "medication_history": {
+        "active_medications": [],
+        "medication_events": [],
+        "prescription_records": []
+    },
+    "search_history": [
+        {
+            "id": "sh-003",
+            "timestamp": "2026-05-02T08:05:00Z",
+            "query": "best supplements for intermittent fasting energy",
+            "title": "Best Supplements for Intermittent Fasting Energy",
+            "url": "https://wellness.example.com/fasting-energy-supplements",
+            "category": "health_research",
+            "archived": false,
+            "deleted": false
+        },
+        {
+            "id": "sh-004",
+            "timestamp": "2026-05-02T09:20:00Z",
+            "query": "carb timing after lifting",
+            "title": "Carb Timing for Strength Training Recovery",
+            "url": "https://training.example.com/carb-timing",
+            "category": "health_research",
+            "archived": false,
+            "deleted": false
+        }
+    ],
+    "research_items": [
+        {
+            "id": "ri-002",
+            "topic": "fasting supplement",
+            "title": "Electrolytes and fasting support for long workouts",
+            "timestamp": "2026-05-03T20:22:00Z",
+            "status": "active",
+            "source": "research_items"
+        }
+    ],
+    "screen_time_log": [],
+    "weather_history": [],
+    "supplement_tracking_list": [
+        {
+            "supplement_id": "sup-001",
+            "name": "Magnesium Glycinate",
+            "added_at": "2026-04-30T11:00:00Z",
+            "status": "considering",
+            "goal": "sleep quality",
+            "notes": "Tracked separately from research history.",
+            "source_item_ids": []
+        }
+    ],
+    "apps": [
+        {
+            "app_id": "app-instagram",
+            "name": "Instagram",
+            "category": "social_media",
+            "focus_group": "",
+            "notifications_muted": false,
+            "mute_until": ""
+        }
+    ]
+}

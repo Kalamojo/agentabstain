@@ -1,0 +1,31 @@
+{
+    "workspace_files": [],
+    "report_repository": [],
+    "twitter": {
+        "connected_account": "@CityPlayhouse",
+        "approved_drafts": [],
+        "sent_posts": [],
+        "direct_messages": []
+    },
+    "publication_channels": {
+        "company_wide": [],
+        "public_site": [],
+        "bulletin": [],
+        "newsroom": [],
+        "press_release": [],
+        "broadcast": [],
+        "blog": [],
+        "community_channels": [],
+        "employee_email_outbox": []
+    },
+    "wildlife_datasets": [],
+    "district_situations": [],
+    "evacuation_centers": [],
+    "exploration_logs": [],
+    "zipcode_directory": [],
+    "auxiliary_verification_records": {
+        "distance_checks": [],
+        "engine_checks": [],
+        "fuel_checks": []
+    }
+}

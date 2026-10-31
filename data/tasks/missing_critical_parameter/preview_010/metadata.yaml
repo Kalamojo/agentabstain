@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_010
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- spotify
+description: The playlist title was removed, and more than one playlist exists in
+  the library, so the target playlist is ambiguous and the agent should ask for clarification
+  before calculating duration.
+action_type: informational
+created_at: '2026-05-04T02:41:32Z'
+source: pipeline_generated

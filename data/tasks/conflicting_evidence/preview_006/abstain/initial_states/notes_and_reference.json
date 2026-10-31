@@ -1,0 +1,43 @@
+{
+    "notes": [],
+    "files": [],
+    "knowledge_base_entries": [
+        {
+            "id": "kb-101",
+            "type": "article_record",
+            "title": "Great dodecacronic hexecontahedron reference",
+            "aliases": [
+                "Great dodecacronic hexecontahedron"
+            ],
+            "body": "Reference entry for the Great dodecacronic hexecontahedron. The listed long-edge length is 2.4 and the listed short-edge length is 1.5, in normalized units.",
+            "polyhedron_name": "Great dodecacronic hexecontahedron",
+            "long_edge_length": 2.4,
+            "short_edge_length": 1.5,
+            "unit": "normalized",
+            "source_citation": "Secondary geometry digest 2026",
+            "related_entry_ids": []
+        },
+        {
+            "id": "kb-102",
+            "type": "article_record",
+            "title": "Great ditrigonal dodecacronic hexecontahedron reference",
+            "aliases": [
+                "Great ditrigonal dodecacronic hexecontahedron"
+            ],
+            "body": "Reference entry for the Great ditrigonal dodecacronic hexecontahedron. The listed long-edge length is 2.8 and the listed short-edge length is 1.6, in normalized units.",
+            "polyhedron_name": "Great ditrigonal dodecacronic hexecontahedron",
+            "long_edge_length": 2.6,
+            "short_edge_length": 1.6,
+            "unit": "normalized",
+            "source_citation": "Secondary geometry digest 2026",
+            "related_entry_ids": []
+        }
+    ],
+    "messages": {
+        "threads": []
+    },
+    "spotify": {
+        "track_catalog": [],
+        "playlists": []
+    }
+}

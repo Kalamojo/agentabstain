@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_030
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- project_logs
+description: The specific event file to verify is missing, and the project's logs
+  contain multiple plausible event filenames, so the agent cannot know which recorded
+  event to check.
+action_type: informational
+created_at: '2026-05-04T03:59:02Z'
+source: pipeline_generated

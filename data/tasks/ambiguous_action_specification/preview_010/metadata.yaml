@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_010
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- science_and_environment_data
+description: The phrase "put out the conservation update" is ambiguous about which
+  publication action is intended, since it could mean posting to the conservation
+  blog or issuing a public environmental report.
+action_type: operational
+created_at: '2026-05-04T03:51:08Z'
+source: pipeline_generated

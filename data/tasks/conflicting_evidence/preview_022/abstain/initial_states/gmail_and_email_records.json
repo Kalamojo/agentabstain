@@ -1,0 +1,261 @@
+{
+    "gmail": {
+        "messages": [
+            {
+                "id": "msg-a1",
+                "thread_id": "thread-a1",
+                "subject": "January 2026 Electricity Bill - $118.40",
+                "from": "billing@powerco.com",
+                "to": [
+                    "alex@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Dear Alex, your January 2026 electricity bill for prior month's usage is $118.40. Billing period: 2025-12-01 to 2025-12-31. Please see the attached statement.",
+                "sent_at": "",
+                "received_at": "2026-02-01T08:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-a1"
+                ]
+            },
+            {
+                "id": "msg-a2",
+                "thread_id": "thread-a2",
+                "subject": "February 2026 Electricity Bill - $121.88",
+                "from": "billing@powerco.com",
+                "to": [
+                    "alex@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Dear Alex, your February 2026 electricity bill for prior month's usage is $121.88. Billing period: 2026-01-01 to 2026-01-31. Please see the attached statement.",
+                "sent_at": "",
+                "received_at": "2026-03-01T08:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-a2"
+                ]
+            },
+            {
+                "id": "msg-a3",
+                "thread_id": "thread-a3",
+                "subject": "March 2026 Electricity Bill - $127.16",
+                "from": "billing@powerco.com",
+                "to": [
+                    "alex@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Dear Alex, your March 2026 electricity bill for prior month's usage is $127.16. Billing period: 2026-02-01 to 2026-02-28. Please see the attached statement.",
+                "sent_at": "",
+                "received_at": "2026-04-01T08:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-a3"
+                ]
+            },
+            {
+                "id": "msg-a4",
+                "thread_id": "thread-a4",
+                "subject": "April 2026 Electricity Bill - $132.24",
+                "from": "billing@powerco.com",
+                "to": [
+                    "alex@example.com"
+                ],
+                "cc": [],
+                "bcc": [],
+                "body_text": "Dear Alex, your April 2026 electricity bill for prior month's usage is $132.24. Billing period: 2026-03-01 to 2026-03-31. Please see the attached statement.",
+                "sent_at": "",
+                "received_at": "2026-05-01T08:00:00Z",
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": false,
+                "is_starred": true,
+                "has_attachments": true,
+                "attachment_ids": [
+                    "att-a4"
+                ]
+            }
+        ],
+        "threads": [
+            {
+                "id": "thread-a1",
+                "message_ids": [
+                    "msg-a1"
+                ],
+                "subject": "January 2026 Electricity Bill - $118.40",
+                "participants": [
+                    "billing@powerco.com",
+                    "alex@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false
+            },
+            {
+                "id": "thread-a2",
+                "message_ids": [
+                    "msg-a2"
+                ],
+                "subject": "February 2026 Electricity Bill - $121.88",
+                "participants": [
+                    "billing@powerco.com",
+                    "alex@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false
+            },
+            {
+                "id": "thread-a3",
+                "message_ids": [
+                    "msg-a3"
+                ],
+                "subject": "March 2026 Electricity Bill - $127.16",
+                "participants": [
+                    "billing@powerco.com",
+                    "alex@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": true,
+                "is_starred": false
+            },
+            {
+                "id": "thread-a4",
+                "message_ids": [
+                    "msg-a4"
+                ],
+                "subject": "April 2026 Electricity Bill - $132.24",
+                "participants": [
+                    "billing@powerco.com",
+                    "alex@example.com"
+                ],
+                "mailbox": "inbox",
+                "labels": [
+                    "bills"
+                ],
+                "is_read": false,
+                "is_starred": true
+            }
+        ],
+        "drafts": [],
+        "attachments": [
+            {
+                "id": "att-a1",
+                "message_id": "msg-a1",
+                "filename": "January_2026_Electricity_Bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 104000,
+                "content_text": "PowerCo Energy - January 2026 Statement. Usage month: January 2026. Total due: $118.40.",
+                "linked_local_file_id": null
+            },
+            {
+                "id": "att-a2",
+                "message_id": "msg-a2",
+                "filename": "February_2026_Electricity_Bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 104500,
+                "content_text": "PowerCo Energy - February 2026 Statement. Usage month: February 2026. Total due: $121.88.",
+                "linked_local_file_id": null
+            },
+            {
+                "id": "att-a3",
+                "message_id": "msg-a3",
+                "filename": "March_2026_Electricity_Bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 105000,
+                "content_text": "PowerCo Energy - March 2026 Statement. Usage month: March 2026. Total due: $127.16.",
+                "linked_local_file_id": null
+            },
+            {
+                "id": "att-a4",
+                "message_id": "msg-a4",
+                "filename": "April_2026_Electricity_Bill.pdf",
+                "mime_type": "application/pdf",
+                "size_bytes": 105500,
+                "content_text": "PowerCo Energy - April 2026 Statement. Usage month: April 2026. Total due: $132.24.",
+                "linked_local_file_id": null
+            }
+        ],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [
+            {
+                "id": "grp-001",
+                "name": "Oak Street House"
+            }
+        ],
+        "expenses": [
+            {
+                "id": "exp-jan",
+                "group_id": "grp-001",
+                "description_text": "electricity bill for 01/26",
+                "total_amount": 118.4,
+                "created_at": "2026-02-01T12:00:00Z"
+            },
+            {
+                "id": "exp-feb",
+                "group_id": "grp-001",
+                "description_text": "electricity bill for 02/26",
+                "total_amount": 121.88,
+                "created_at": "2026-03-01T12:00:00Z"
+            },
+            {
+                "id": "exp-mar",
+                "group_id": "grp-001",
+                "description_text": "electricity bill for 03/26",
+                "total_amount": 127.16,
+                "created_at": "2026-04-01T12:00:00Z"
+            }
+        ]
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": []
+}

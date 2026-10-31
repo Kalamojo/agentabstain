@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_012
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- trading_and_portfolio
+description: The verb 'Adjust' is ambiguous for an open brokerage order because it
+  could mean directly cancelling the order or initiating a broker-assisted order-change
+  workflow, and the instruction does not specify which adjustment is wanted.
+action_type: operational
+created_at: '2026-05-04T03:53:06Z'
+source: pipeline_generated

@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_024
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- retail_orders
+description: The instruction simultaneously requires a full order cancellation and
+  that no items be cancelled, so the agent should ask the user to clarify which outcome
+  they want before taking any action.
+action_type: operational
+created_at: '2026-05-04T03:23:49Z'
+source: pipeline_generated

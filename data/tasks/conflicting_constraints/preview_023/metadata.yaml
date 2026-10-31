@@ -1,0 +1,11 @@
+pair_id: conflicting_constraints_023
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The instruction gives mutually exclusive checked-bag requirements, so
+  the agent should ask the user to clarify the bag count before taking any action.
+action_type: operational
+created_at: '2026-05-04T03:23:29Z'
+source: pipeline_generated

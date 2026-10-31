@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_017
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- notes_and_reference
+description: The exact note title has been omitted, leaving multiple plausible workout-plan
+  notes as possible targets.
+action_type: informational
+created_at: '2026-05-04T03:26:16Z'
+source: pipeline_generated

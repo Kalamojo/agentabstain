@@ -1,0 +1,66 @@
+{
+    "workspace": {
+        "current_user_id": "user-001",
+        "privacy_screen_enabled": false,
+        "current_browser_url": "https://example.com",
+        "launched_event_id": null
+    },
+    "files": [
+        {
+            "path": "/home/user/public_html/index.html",
+            "name": "index.html",
+            "mime_type": "text/html",
+            "content": "<!DOCTYPE html><html><head><title>Home</title></head><body><h1>Welcome</h1></body></html>",
+            "last_modified": "2026-05-01T09:00:00Z"
+        }
+    ],
+    "browser_pages": [
+        {
+            "url": "https://example.com",
+            "title": "Example Domain",
+            "content": "Example content",
+            "links": [],
+            "assets": []
+        }
+    ],
+    "web_history": [],
+    "cms": {
+        "pages": [
+            {
+                "page_name": "Homepage",
+                "slug": "home",
+                "draft_content": "<html><body>Home</body></html>",
+                "draft_metadata": {
+                    "author": "jsmith"
+                },
+                "latest_update_content": "<html><body>Home</body></html>",
+                "latest_update_recorded_at": "2026-05-01T09:00:00Z",
+                "last_editor": "jsmith"
+            }
+        ],
+        "live_homepage_path": "/home/user/public_html/index.html",
+        "deployments": [
+            {
+                "path": "/home/user/public_html/index.html",
+                "deployed_at": "2026-05-01T09:00:00Z",
+                "status": "live"
+            }
+        ]
+    },
+    "emails": [],
+    "events": [
+        {
+            "event_id": "evt-web-001",
+            "name": "Benefits Orientation",
+            "details": "Overview session.",
+            "scheduled_time": "2026-05-04T13:00:00Z",
+            "presentation_url": "https://slides.example.com/benefits-orientation"
+        }
+    ],
+    "admin_accounts": [],
+    "bank_accounts": [],
+    "tax_filings": [],
+    "legal_query_history": [],
+    "q3_report_discrepancies": [],
+    "backup_logs": []
+}

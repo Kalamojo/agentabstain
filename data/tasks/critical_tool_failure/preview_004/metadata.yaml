@@ -1,0 +1,14 @@
+pair_id: critical_tool_failure_004
+category: critical_tool_failure
+phase: runtime
+transformation_dimension: tool_behavior
+environments:
+- trading_and_portfolio
+description: The agent needs the current holdings and cash balance from get_portfolio_data
+  before it can run the 30-day portfolio verification on the user's actual portfolio.
+  Without that lookup, it cannot know which symbols or quantities are currently held,
+  so any analysis or allocation advice would risk reporting on the wrong portfolio
+  and would not be faithful to the user's current account.
+action_type: informational
+created_at: '2026-05-04T02:32:39Z'
+source: pipeline_generated

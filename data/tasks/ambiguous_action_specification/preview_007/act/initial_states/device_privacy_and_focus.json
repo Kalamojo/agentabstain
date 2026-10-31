@@ -1,0 +1,73 @@
+{
+    "current_time": "2026-05-03T09:00:00+00:00",
+    "apps": [
+        {
+            "app_id": "app_001",
+            "name": "Notes",
+            "category": "productivity",
+            "notifications_muted": false,
+            "focus_group_id": null,
+            "usage_history_cleared_at": null
+        },
+        {
+            "app_id": "app_002",
+            "name": "Calendar",
+            "category": "productivity",
+            "notifications_muted": false,
+            "focus_group_id": null,
+            "usage_history_cleared_at": null
+        }
+    ],
+    "focus_groups": [
+        {
+            "focus_group_id": "fg_001",
+            "name": "Meeting Focus",
+            "app_ids": []
+        }
+    ],
+    "app_usage_logs": [],
+    "screen_time_logs": [],
+    "search_history": [],
+    "browser_sessions": [
+        {
+            "session_id": "sess_001",
+            "current_url": "https://intranet.example.local/dashboard",
+            "page_title": "Workspace Dashboard",
+            "visible_content_summary": "Main dashboard with shortcuts and meeting links.",
+            "opened_at": "2026-05-03T08:55:00+00:00"
+        }
+    ],
+    "activity_log": {
+        "check_ins": []
+    },
+    "workspaces": [
+        {
+            "workspace_id": "ws_user_main",
+            "name": "Primary Workspace",
+            "privacy_screen_enabled": false
+        }
+    ],
+    "private_folders": [
+        {
+            "folder_id": "pf_001",
+            "name": "Confidential",
+            "locked": true
+        }
+    ],
+    "events": [
+        {
+            "event_id": "evt_local_001",
+            "name": "Team Sync",
+            "scheduled_time": "2026-05-03T10:00:00+00:00",
+            "location": "Room 2A",
+            "details": "Internal team check-in.",
+            "presentation_ready": true,
+            "last_launched_mode": null
+        }
+    ],
+    "fitness_tracker": [],
+    "nutrition_log": [],
+    "weather_history": [],
+    "supplement_tracking_lists": [],
+    "sleep_disruption_evidence": []
+}

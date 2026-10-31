@@ -1,0 +1,40 @@
+{
+    "gmail": {
+        "messages": [],
+        "threads": [],
+        "drafts": [],
+        "attachments": [],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": [],
+    "drafts": [
+        {
+            "id": "draft_katie_001",
+            "thread_contact": "Katie",
+            "subject": "Re: Songs for the road trip",
+            "body": "Hi Katie,\n\nHere’s the updated list:\n- old song 1\n- old song 2\n\nLet me know what you think!\n\nBest,\nAlice",
+            "status": "draft"
+        }
+    ]
+}

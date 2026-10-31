@@ -1,0 +1,13 @@
+pair_id: conflicting_constraints_003
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- maps_and_navigation
+- vehicle_status_and_control
+description: The instruction gives mutually incompatible fuel assumptions, so the
+  agent should ask the user to clarify the correct current fuel level or tank capacity
+  before performing any verification.
+action_type: informational
+created_at: '2026-05-04T02:28:40Z'
+source: pipeline_generated

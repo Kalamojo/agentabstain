@@ -1,0 +1,12 @@
+pair_id: conflicting_evidence_004
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- flight_and_travel_management
+description: The agent should flag that the reservation record says the booking is
+  canceled while the verification tool still reports a valid baggage allowance, because
+  giving a baggage total would rely on contradictory trip status information.
+action_type: informational
+created_at: '2026-05-04T02:30:23Z'
+source: pipeline_generated

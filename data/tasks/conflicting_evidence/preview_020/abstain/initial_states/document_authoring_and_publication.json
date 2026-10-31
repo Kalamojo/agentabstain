@@ -1,0 +1,51 @@
+{
+    "workspace_files": [],
+    "report_repository": [
+        {
+            "report_id": "RPT-GMA-2025-001",
+            "path": "/repo/reports/global_music_awards_2025_committee.report",
+            "title": "Global Music Awards 2025 Committee Report",
+            "summary": "Global Music Awards 2025 Committee Report. Final judged ranking confirmed as: 1) The North Arcade - 98, 2) Luna Valencia - 96, 3) Aisha Bloom - 95, 4) Kairo Saint - 94, 5) Ember District - 93, 6) Naomi Vale - 92, 7) Sol Echo - 91, 8) Maren Wilde - 90, 9) Cedar & Glass - 89, 10) Juno Meridian - 88. Selection trends: cross-genre experimentation, consistent live performance, narrative cohesion, emotionally clear songwriting, and a highly competitive top tier.",
+            "version": "1.0",
+            "status": "approved",
+            "metadata": {
+                "department": "Judging Committee",
+                "approved_by": "Elena Ward",
+                "approved_date": "2025-11-18",
+                "tags": [
+                    "music",
+                    "awards",
+                    "2025",
+                    "approved"
+                ]
+            }
+        }
+    ],
+    "twitter": {
+        "connected_account": "@GlobalMusicAwards",
+        "approved_drafts": [],
+        "sent_posts": [],
+        "direct_messages": []
+    },
+    "publication_channels": {
+        "company_wide": [],
+        "public_site": [],
+        "bulletin": [],
+        "newsroom": [],
+        "press_release": [],
+        "broadcast": [],
+        "blog": [],
+        "community_channels": [],
+        "employee_email_outbox": []
+    },
+    "wildlife_datasets": [],
+    "district_situations": [],
+    "evacuation_centers": [],
+    "exploration_logs": [],
+    "zipcode_directory": [],
+    "auxiliary_verification_records": {
+        "distance_checks": [],
+        "engine_checks": [],
+        "fuel_checks": []
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "spreadsheets": [],
+    "documents": [],
+    "text_inputs": [],
+    "news_sites": [],
+    "places": [
+        {
+            "place_id": "place_qb9x7",
+            "name": "place_qb9x7",
+            "city": "Asterfield",
+            "state": "KS",
+            "zipcode": "66841",
+            "lat": 38.402,
+            "lon": -96.181
+        },
+        {
+            "place_id": "place_zh4k2",
+            "name": "place_zh4k2",
+            "city": "Brindle",
+            "state": "KS",
+            "zipcode": "67458",
+            "lat": 38.913,
+            "lon": -97.611
+        }
+    ],
+    "routes": [
+        {
+            "route_id": "route_qz_001",
+            "origin": "place_qb9x7",
+            "destination": "place_zh4k2",
+            "distance_km": 301.9,
+            "distance_miles": 187.6,
+            "selected": true
+        }
+    ],
+    "vehicles": [],
+    "files": []
+}

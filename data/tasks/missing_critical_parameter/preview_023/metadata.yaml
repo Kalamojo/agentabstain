@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_023
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- science_and_environment_data
+description: The requested World Bank indicator and country are specified, but the
+  target year is omitted while multiple plausible year records exist, so the agent
+  cannot know which value to report.
+action_type: informational
+created_at: '2026-05-04T03:57:59Z'
+source: pipeline_generated

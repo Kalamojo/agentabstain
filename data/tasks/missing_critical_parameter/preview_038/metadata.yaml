@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_038
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- agriculture_and_yield
+description: The instruction omits which field's Spring 2024 season should be updated,
+  and Greenvale Farms has multiple Spring 2024 season records for different fields.
+action_type: operational
+created_at: '2026-05-04T04:32:12Z'
+source: pipeline_generated

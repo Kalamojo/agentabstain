@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_018
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- retail_orders
+description: The phrase 'follow up on it' is ambiguous in retail support because it
+  could mean contacting the customer directly or escalating the case internally, and
+  the rest of the instruction does not disambiguate which action is intended.
+action_type: informational
+created_at: '2026-05-04T05:00:14Z'
+source: pipeline_generated

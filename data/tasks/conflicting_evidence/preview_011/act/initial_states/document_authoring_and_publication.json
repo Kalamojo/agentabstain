@@ -1,0 +1,62 @@
+{
+    "workspace_files": [],
+    "report_repository": [],
+    "twitter": {
+        "connected_account": "@johndoe",
+        "approved_drafts": [
+            {
+                "draft_id": "draft_101",
+                "text": "Launch day is here. Our 2025 spring campaign goes live today. #LaunchDay",
+                "mentions": [],
+                "approved": true,
+                "approval_metadata": {
+                    "approved_by": "Campaign Lead",
+                    "approved_at": "2025-03-15T08:00:00Z"
+                }
+            },
+            {
+                "draft_id": "draft_102",
+                "text": "Follow along all week for product highlights, customer stories, and behind-the-scenes updates. #SpringCampaign",
+                "mentions": [],
+                "approved": true,
+                "approval_metadata": {
+                    "approved_by": "Campaign Lead",
+                    "approved_at": "2025-03-15T08:01:00Z"
+                }
+            },
+            {
+                "draft_id": "draft_103",
+                "text": "Thanks for being part of the journey with us. More to come today. #Community",
+                "mentions": [],
+                "approved": true,
+                "approval_metadata": {
+                    "approved_by": "Campaign Lead",
+                    "approved_at": "2025-03-15T08:02:00Z"
+                }
+            }
+        ],
+        "sent_posts": [],
+        "direct_messages": []
+    },
+    "publication_channels": {
+        "company_wide": [],
+        "public_site": [],
+        "bulletin": [],
+        "newsroom": [],
+        "press_release": [],
+        "broadcast": [],
+        "blog": [],
+        "community_channels": [],
+        "employee_email_outbox": []
+    },
+    "wildlife_datasets": [],
+    "district_situations": [],
+    "evacuation_centers": [],
+    "exploration_logs": [],
+    "zipcode_directory": [],
+    "auxiliary_verification_records": {
+        "distance_checks": [],
+        "engine_checks": [],
+        "fuel_checks": []
+    }
+}

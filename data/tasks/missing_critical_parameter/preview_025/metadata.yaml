@@ -1,0 +1,11 @@
+pair_id: missing_critical_parameter_025
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- phone_and_messages
+description: The qualifier identifying which Chris Nguyen contact to use is missing,
+  and there are multiple plausible Chris Nguyen contacts in the device state.
+action_type: informational
+created_at: '2026-05-04T03:58:14Z'
+source: pipeline_generated

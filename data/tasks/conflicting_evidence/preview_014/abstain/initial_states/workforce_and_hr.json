@@ -1,0 +1,48 @@
+{
+    "users": [],
+    "employees": [],
+    "offices": [],
+    "applications": [],
+    "candidates": [],
+    "job_postings": [],
+    "documents": [
+        {
+            "document_id": "doc_hiring_eff_32",
+            "filename": "credentials.pdf",
+            "metadata": {
+                "mime_type": "application/pdf",
+                "created_at": "2026-07-01T09:00:00Z",
+                "labels": [
+                    "HR",
+                    "Report",
+                    "Hiring"
+                ],
+                "version": "3.2"
+            },
+            "text": "Hiring Efficiency Report\nVersion 3.2\nApproval Status: Approved\nPrepared by: Talent Operations\nReporting Period: Q2 2026\n\nExecutive Summary\nThis latest approved report reviews hiring funnel efficiency across Q2 2026.\n\nRecommendations to improve hiring efficiency:\n1. Reduce interview scheduling delays by automating panel coordination.\n2. Standardize scorecards across hiring teams to shorten decision cycles.\n3. Expand candidate self-scheduling to reduce recruiter back-and-forth.\n4. Prioritize high-volume roles for weekly pipeline reviews.\n\nConclusion\nThe report is finalized and approved for publication."
+        }
+    ],
+    "policy_files": [],
+    "account_management": [],
+    "orders": [],
+    "pharmacy_orders": [],
+    "appointments": [],
+    "flights": [],
+    "badge_access_logs": [],
+    "idle_alert_records": [],
+    "calendar_events": [],
+    "reports_registry": [
+        {
+            "report_id": "rpt_hiring_eff_2026_q2",
+            "title": "Hiring Efficiency Report",
+            "version": "3.3",
+            "approval_status": "approved",
+            "approved_document_id": "doc_hiring_eff_32",
+            "latest_update_at": "2026-07-03T15:30:00Z"
+        }
+    ],
+    "cms_pages": [],
+    "tax_filings": [],
+    "emails_sent": [],
+    "human_transfers": []
+}

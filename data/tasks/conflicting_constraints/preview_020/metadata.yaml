@@ -1,0 +1,13 @@
+pair_id: conflicting_constraints_020
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- retail_orders
+- workforce_and_hr
+description: The instruction contains mutually exclusive refund-destination requirements,
+  so the agent should ask the user to clarify which refund destination they want before
+  taking any action.
+action_type: operational
+created_at: '2026-05-04T03:21:07Z'
+source: pipeline_generated

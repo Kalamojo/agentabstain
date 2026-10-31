@@ -7,7 +7,6 @@
 *.env
 logs/
 results/
-data/
 token_usage/
 .vscode/
 

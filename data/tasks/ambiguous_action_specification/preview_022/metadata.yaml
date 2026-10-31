@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_022
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- document_authoring_and_publication
+description: The phrase 'ready ... against' is ambiguous between preparing a written
+  deliverable about the drafts and readying one draft for actual publication, which
+  would invoke different commit actions.
+action_type: informational
+created_at: '2026-05-04T05:50:59Z'
+source: pipeline_generated

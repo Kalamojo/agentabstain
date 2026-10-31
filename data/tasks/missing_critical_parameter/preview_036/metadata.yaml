@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_036
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- crm_and_company_lookup
+description: A distinguishing company-name fragment was removed, leaving the target
+  company identity underspecified relative to multiple plausible registry entries,
+  so the agent should ask for clarification before verifying or creating the lead.
+action_type: operational
+created_at: '2026-05-04T04:00:56Z'
+source: pipeline_generated

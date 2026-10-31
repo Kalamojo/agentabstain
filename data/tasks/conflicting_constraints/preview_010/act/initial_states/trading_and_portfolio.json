@@ -1,0 +1,47 @@
+{
+    "current_time": "2026-10-20T12:00:00+00:00",
+    "user": {
+        "user_id": "user_100",
+        "name": "Jordan Lee",
+        "email": "jordan.lee@example.com",
+        "watchlist": [
+            "AAPL"
+        ],
+        "default_payment_method_id": "pm_100"
+    },
+    "stocks": [
+        {
+            "symbol": "AAPL",
+            "company_name": "Apple Inc.",
+            "sector": "Technology",
+            "industry": "Consumer Electronics",
+            "exchange": "NASDAQ",
+            "is_tradable": true,
+            "tags": [
+                "large_cap"
+            ],
+            "quote": {
+                "last": 210.0,
+                "change": 1.0,
+                "change_percent": 0.48,
+                "open": 209.0,
+                "high": 211.5,
+                "low": 208.5,
+                "previous_close": 209.0,
+                "volume": 41000000.0,
+                "as_of": "2026-10-20T12:00:00+00:00"
+            },
+            "historical_prices": []
+        }
+    ],
+    "portfolio": {
+        "cash_balance": 5000.0,
+        "holdings": []
+    },
+    "orders": [],
+    "support_tickets": [],
+    "messages": [],
+    "flights": [],
+    "flight_bookings": [],
+    "vehicles": []
+}

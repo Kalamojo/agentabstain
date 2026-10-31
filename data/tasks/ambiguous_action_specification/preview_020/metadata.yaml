@@ -1,0 +1,13 @@
+pair_id: ambiguous_action_specification_020
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- calendar
+description: The verb phrase "clear the meetings" is genuinely ambiguous in a calendar-conflict
+  context because it could mean moving the conflicting meetings to another time or
+  removing them altogether, and the user's intended action cannot be inferred from
+  calendar state alone.
+action_type: informational
+created_at: '2026-05-04T05:39:12Z'
+source: pipeline_generated

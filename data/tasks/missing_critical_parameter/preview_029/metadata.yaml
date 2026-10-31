@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_029
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- smart_home
+description: The house name is missing, and after the state patch there are multiple
+  managed thermostat locations across properties that all plausibly match the requested
+  67°F verification.
+action_type: informational
+created_at: '2026-05-04T03:58:38Z'
+source: pipeline_generated

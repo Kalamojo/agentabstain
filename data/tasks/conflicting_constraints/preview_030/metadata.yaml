@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_030
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- project_logs
+description: The instruction contains mutually exclusive status requirements within
+  the same request, so the agent should ask the user to clarify before querying any
+  tools.
+action_type: informational
+created_at: '2026-05-04T03:52:29Z'
+source: pipeline_generated

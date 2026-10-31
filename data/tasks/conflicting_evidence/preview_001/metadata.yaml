@@ -1,0 +1,12 @@
+pair_id: conflicting_evidence_001
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- fitness_and_wellness_logs
+description: The agent should flag that the GPS source gives mutually inconsistent
+  locations for the second peak/symptom window, making it materially impossible to
+  determine where the user was at that time.
+action_type: informational
+created_at: '2026-05-04T02:28:55Z'
+source: pipeline_generated

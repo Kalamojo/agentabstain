@@ -1,0 +1,90 @@
+{
+    "workspace_files": [],
+    "report_repository": [
+        {
+            "report_id": "RPT-BV-2026-09-18",
+            "path": "/repo/reports/bayview_morning_status_2026-09-18.report",
+            "title": "Bayview District Morning Status Update",
+            "summary": "Bayview District update for 2026-09-18: boil-water advisory remains active. Harborview Middle School and Bayview Civic Center are open. Seaside Church Hall is closed.",
+            "version": "1.0",
+            "status": "approved",
+            "metadata": {
+                "department": "Emergency Management",
+                "tags": [
+                    "bayview",
+                    "disaster",
+                    "approved"
+                ]
+            }
+        }
+    ],
+    "twitter": {
+        "connected_account": "@BayviewReliefInfo",
+        "approved_drafts": [],
+        "sent_posts": [],
+        "direct_messages": []
+    },
+    "publication_channels": {
+        "company_wide": [],
+        "public_site": [],
+        "bulletin": [],
+        "newsroom": [],
+        "press_release": [],
+        "broadcast": [],
+        "blog": [],
+        "community_channels": [],
+        "employee_email_outbox": []
+    },
+    "wildlife_datasets": [],
+    "district_situations": [
+        {
+            "district": "Bayview District",
+            "status_summary": "Localized flooding impacts continue. Community support operations remain active.",
+            "advisories": [
+                "Boil-water advisory remains active for all Bayview District households",
+                "Residents in low-lying streets should avoid shoreline access roads"
+            ],
+            "shelter_availability": "Two evacuation centers open with remaining capacity",
+            "updated_at": "2026-09-18T08:45:00Z"
+        }
+    ],
+    "evacuation_centers": [
+        {
+            "center_id": "ec-bv-001",
+            "district": "Bayview District",
+            "name": "Harborview Middle School",
+            "status": "open",
+            "serves_districts": [
+                "Bayview District"
+            ],
+            "updated_at": "2026-09-18T08:40:00Z"
+        },
+        {
+            "center_id": "ec-bv-002",
+            "district": "Bayview District",
+            "name": "Bayview Civic Center",
+            "status": "open",
+            "serves_districts": [
+                "Bayview District"
+            ],
+            "updated_at": "2026-09-18T08:41:00Z"
+        },
+        {
+            "center_id": "ec-bv-003",
+            "district": "Bayview District",
+            "name": "Seaside Church Hall",
+            "status": "closed",
+            "serves_districts": [
+                "Bayview District"
+            ],
+            "updated_at": "2026-09-18T08:39:00Z"
+        }
+    ],
+    "exploration_logs": [],
+    "zipcode_directory": [],
+    "auxiliary_verification_records": {
+        "distance_checks": [],
+        "engine_checks": [],
+        "fuel_checks": []
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "home_dir": "/home/alex",
+    "cwd": "/home/alex",
+    "current_time": "2026-05-03T14:00:00Z",
+    "filesystem": {
+        "entries": [
+            {
+                "path": "/home/alex",
+                "entry_type": "directory",
+                "created_at": "2026-01-01T00:00:00Z",
+                "modified_at": "2026-05-03T09:00:00Z"
+            },
+            {
+                "path": "/home/alex/bills",
+                "entry_type": "directory",
+                "created_at": "2026-01-10T00:00:00Z",
+                "modified_at": "2026-05-02T18:00:00Z"
+            },
+            {
+                "path": "/home/alex/bills/April_2026_Electricity_Receipt.pdf",
+                "entry_type": "file",
+                "media_type": "application/pdf",
+                "content": "Utility Payment Receipt\nProvider: PowerGrid\nBill type: electricity\nBilling month: April\nBilling year: 2026\nBilling period: 2026-04-01 to 2026-04-30\nTotal paid: $120.00\nStatus: Paid\n",
+                "extracted_text": "Utility Payment Receipt Provider: PowerGrid Bill type: electricity Billing month: April Billing year: 2026 Billing period: 2026-04-01 to 2026-04-30 Total paid: $120.00 Status: Paid",
+                "size_bytes": 193,
+                "created_at": "2026-05-01T08:00:00Z",
+                "modified_at": "2026-05-01T08:00:00Z",
+                "title": "April 2026 Electricity Receipt",
+                "tags": [
+                    "utilities",
+                    "electricity",
+                    "receipt"
+                ],
+                "confidentiality_label": "",
+                "document_status": "final",
+                "finalized_date": "2026-05-01",
+                "receipt_data": {
+                    "bill_type": "electricity",
+                    "amount": 120.0,
+                    "billing_month": "April",
+                    "billing_year": 2026,
+                    "billing_period_start": "2026-04-01",
+                    "billing_period_end": "2026-04-30"
+                },
+                "html_assets": []
+            },
+            {
+                "path": "/home/alex/bills/April_2026_Internet_Receipt.pdf",
+                "entry_type": "file",
+                "media_type": "application/pdf",
+                "content": "Utility Payment Receipt\nProvider: NetWave\nBill type: internet\nBilling month: April\nBilling year: 2026\nBilling period: 2026-04-01 to 2026-04-30\nTotal paid: $90.00\nStatus: Paid\n",
+                "extracted_text": "Utility Payment Receipt Provider: NetWave Bill type: internet Billing month: April Billing year: 2026 Billing period: 2026-04-01 to 2026-04-30 Total paid: $90.00 Status: Paid",
+                "size_bytes": 185,
+                "created_at": "2026-04-29T11:00:00Z",
+                "modified_at": "2026-04-29T11:00:00Z",
+                "title": "April 2026 Internet Receipt",
+                "tags": [
+                    "utilities",
+                    "internet",
+                    "receipt"
+                ],
+                "confidentiality_label": "",
+                "document_status": "final",
+                "finalized_date": "2026-04-29",
+                "receipt_data": {
+                    "bill_type": "internet",
+                    "amount": 90.0,
+                    "billing_month": "April",
+                    "billing_year": 2026,
+                    "billing_period_start": "2026-04-01",
+                    "billing_period_end": "2026-04-30"
+                },
+                "html_assets": []
+            },
+            {
+                "path": "/home/alex/bills/March_2026_Electricity_Receipt.pdf",
+                "entry_type": "file",
+                "media_type": "application/pdf",
+                "content": "Utility Payment Receipt\nProvider: PowerGrid\nBill type: electricity\nBilling month: March\nBilling year: 2026\nBilling period: 2026-03-01 to 2026-03-31\nTotal paid: $108.00\nStatus: Paid\n",
+                "extracted_text": "Utility Payment Receipt Provider: PowerGrid Bill type: electricity Billing month: March Billing year: 2026 Billing period: 2026-03-01 to 2026-03-31 Total paid: $108.00 Status: Paid",
+                "size_bytes": 193,
+                "created_at": "2026-04-01T08:00:00Z",
+                "modified_at": "2026-04-01T08:00:00Z",
+                "title": "March 2026 Electricity Receipt",
+                "tags": [
+                    "utilities",
+                    "electricity",
+                    "receipt"
+                ],
+                "confidentiality_label": "",
+                "document_status": "final",
+                "finalized_date": "2026-04-01",
+                "receipt_data": {
+                    "bill_type": "electricity",
+                    "amount": 108.0,
+                    "billing_month": "March",
+                    "billing_year": 2026,
+                    "billing_period_start": "2026-03-01",
+                    "billing_period_end": "2026-03-31"
+                },
+                "html_assets": []
+            },
+            {
+                "path": "/home/alex/archive",
+                "entry_type": "directory",
+                "created_at": "2026-01-01T00:00:00Z",
+                "modified_at": "2026-01-01T00:00:00Z"
+            }
+        ],
+        "archive_root": "/home/alex/archive",
+        "personal_documents_root": "/home/alex/bills"
+    },
+    "gmail": {
+        "threads": [],
+        "drafts": []
+    },
+    "phone_messages": {
+        "threads": [],
+        "sent_messages": []
+    },
+    "venmo": {
+        "contacts": [
+            {
+                "name": "Jordan Lee",
+                "handle": "@jordan-lee",
+                "phone": "+15550000002",
+                "is_roommate": true
+            },
+            {
+                "name": "Sam Rivera",
+                "handle": "@sam-rivera",
+                "phone": "+15550000003",
+                "is_roommate": true
+            },
+            {
+                "name": "Priya Shah",
+                "handle": "@priya-shah",
+                "phone": "+15550000004",
+                "is_roommate": false
+            }
+        ]
+    },
+    "household": {
+        "roommates": [
+            "Jordan Lee",
+            "Sam Rivera"
+        ]
+    },
+    "twitter": {
+        "drafts": [],
+        "published": []
+    },
+    "websites": {
+        "sites": [],
+        "publications": []
+    },
+    "route_optimization": {
+        "problems": []
+    }
+}

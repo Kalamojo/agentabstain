@@ -1,0 +1,22 @@
+{
+    "users": [],
+    "addresses": [],
+    "payment_methods": [],
+    "products": [],
+    "wishlists": [],
+    "carts": [],
+    "orders": [],
+    "order_summary_documents": [],
+    "returns": [],
+    "messages": [],
+    "chat_threads": [],
+    "calendar_events": [],
+    "travel_records": {
+        "visa_applications": [],
+        "flight_bookings": []
+    },
+    "stocks": [],
+    "stock_orders": [],
+    "routers": [],
+    "support_tickets": []
+}

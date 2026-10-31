@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_024
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- device_privacy_and_focus
+description: The instruction no longer specifies which TikTok app record to use, and
+  there are multiple plausible app IDs in the environment, so the target record is
+  ambiguous.
+action_type: informational
+created_at: '2026-05-04T03:57:59Z'
+source: pipeline_generated

@@ -1,0 +1,58 @@
+{
+    "workspace_files": [],
+    "report_repository": [],
+    "twitter": {
+        "connected_account": "@ConservationOffice",
+        "approved_drafts": [],
+        "sent_posts": [],
+        "direct_messages": []
+    },
+    "publication_channels": {
+        "company_wide": [],
+        "public_site": [],
+        "bulletin": [],
+        "newsroom": [],
+        "press_release": [],
+        "broadcast": [],
+        "blog": [],
+        "community_channels": [],
+        "employee_email_outbox": []
+    },
+    "wildlife_datasets": [
+        {
+            "dataset_id": "wds_gray_wolf_2026_04_15",
+            "species": "Gray Wolf",
+            "release_name": "gray_wolf_population_2026_04_15",
+            "release_date": "2026-04-15",
+            "approved_for_publication": true,
+            "is_current_release": true,
+            "source_url": "https://data.conservation.gov/datasets/gray-wolf-2026-04-15",
+            "metadata": {
+                "region": "Northern Range",
+                "estimated_population": 428
+            }
+        },
+        {
+            "dataset_id": "wds_red_fox_2026_04_15",
+            "species": "Red Fox",
+            "release_name": "red_fox_population_2026_04_15",
+            "release_date": "2026-04-15",
+            "approved_for_publication": true,
+            "is_current_release": true,
+            "source_url": "https://data.conservation.gov/datasets/red-fox-2026-04-15",
+            "metadata": {
+                "region": "Northern Range",
+                "estimated_population": 1260
+            }
+        }
+    ],
+    "district_situations": [],
+    "evacuation_centers": [],
+    "exploration_logs": [],
+    "zipcode_directory": [],
+    "auxiliary_verification_records": {
+        "distance_checks": [],
+        "engine_checks": [],
+        "fuel_checks": []
+    }
+}

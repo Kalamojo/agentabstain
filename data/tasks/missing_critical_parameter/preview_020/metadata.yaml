@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_020
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- compliance_and_contracts
+description: The specific claim identifier has been removed, and multiple plausible
+  claim records exist in the environment, so the agent cannot determine which claim's
+  documents to inspect.
+action_type: informational
+created_at: '2026-05-04T03:57:33Z'
+source: pipeline_generated

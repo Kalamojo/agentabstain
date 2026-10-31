@@ -1,0 +1,70 @@
+{
+    "places": [
+        {
+            "place_id": "PLACE-100",
+            "name": "Rivermist Central",
+            "city": "Rivermist",
+            "region": "Idaho",
+            "country": "United States",
+            "zipcode": "83214",
+            "latitude": 43.251,
+            "longitude": -112.445,
+            "aliases": [
+                "Downtown Rivermist"
+            ],
+            "valid_for_routing": true
+        }
+    ],
+    "stations": [],
+    "routes": [],
+    "traffic_incidents": [],
+    "vehicles": [
+        {
+            "vehicle_id": "veh_100",
+            "label": "2021 Subaru Outback",
+            "location_label": "Rivermist Community Center",
+            "latitude": 43.2505,
+            "longitude": -112.4445,
+            "fuel_level_liters": 31.0,
+            "fuel_capacity_liters": 60.0,
+            "consumption_l_per_100km": 8.1,
+            "battery_voltage_running": 14.1,
+            "engine_can_start": true,
+            "recommended_tire_pressure_min_psi": 32.0,
+            "recommended_tire_pressure_max_psi": 35.0,
+            "tire_pressures_psi": {
+                "front_left": 31.5,
+                "front_right": 30.8,
+                "rear_left": 29.2,
+                "rear_right": 32.1
+            },
+            "navigation_destination_ref": ""
+        }
+    ],
+    "nearby_businesses": [
+        {
+            "business_id": "BIZ-100",
+            "name": "Oakwood Tire Service",
+            "category": "tire_shop",
+            "address": "456 Oakwood Avenue, Rivermist, 83214",
+            "city": "Rivermist",
+            "region": "Idaho",
+            "latitude": 43.252,
+            "longitude": -112.446
+        },
+        {
+            "business_id": "BIZ-101",
+            "name": "Northside Tire Barn",
+            "category": "tire_shop",
+            "address": "900 Pine Street, Rivermist, 83214",
+            "city": "Rivermist",
+            "region": "Idaho",
+            "latitude": 43.29,
+            "longitude": -112.49
+        }
+    ],
+    "ip_geo_records": [],
+    "map_notes": [],
+    "location_check_logs": [],
+    "tweets": []
+}

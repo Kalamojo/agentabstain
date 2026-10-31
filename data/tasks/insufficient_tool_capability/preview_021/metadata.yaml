@@ -1,0 +1,13 @@
+pair_id: insufficient_tool_capability_021
+category: insufficient_tool_capability
+phase: pre_execution
+transformation_dimension: tool
+environments:
+- education_and_campus_portals
+description: The user explicitly asks to use the financial aid portal record and report
+  the application status. If read_portal_application is unavailable, the agent cannot
+  complete that required part of the task and should abstain instead of inferring
+  from inbox messages alone.
+action_type: informational
+created_at: '2026-05-04T05:13:07Z'
+source: pipeline_generated

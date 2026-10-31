@@ -1,0 +1,13 @@
+pair_id: missing_critical_parameter_015
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- phone_and_messages
+- retail_orders
+- trading_and_portfolio
+description: The ticker identifying the target stock was removed, so the agent cannot
+  determine which stock to add, purchase, and mention in the confirmation message.
+action_type: operational
+created_at: '2026-05-04T02:44:00Z'
+source: pipeline_generated

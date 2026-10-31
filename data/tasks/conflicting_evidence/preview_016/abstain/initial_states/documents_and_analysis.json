@@ -1,0 +1,73 @@
+{
+    "workspace_root": "/workspace",
+    "files": [
+        {
+            "path": "/workspace/legal_policy_2024.pptx",
+            "name": "legal_policy_2024.pptx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "content_text": "Regional Privacy Legislation 2024\nApproved 2024 Draft\nVersion 2024\nPrepared for regional legislative review\n\nSlide 2: Data minimization amendment\nRequire agencies and contractors to limit collection of personal data to what is strictly necessary for a stated statutory purpose.\n\nSlide 3: Cross-border transfer safeguard\nMandate transfer impact assessments and equivalent protection clauses before transferring resident data outside the region.\n\nSlide 4: Breach notification timetable\nShorten mandatory breach notification to 72 hours after confirmation of a material incident.\n\nSlide 5: Children's data protections\nRequire opt-in consent for processing personal data of minors under 16 and prohibit targeted advertising to minors.\n\nSlide 6: Enforcement and penalties\nIncrease maximum administrative penalties to 4% of annual regional turnover for severe or repeated violations.",
+            "binary_ref": "binary://legal_policy_2024_pptx_ref",
+            "metadata": {
+                "size_bytes": 48216,
+                "created_at": "2024-02-12T09:00:00Z",
+                "modified_at": "2024-03-01T16:30:00Z",
+                "labels": [
+                    "presentation",
+                    "legal",
+                    "privacy",
+                    "2024"
+                ],
+                "status": "final",
+                "version": "2024",
+                "approval_state": "approved",
+                "distribution_notes": "Approved for policy briefing use",
+                "restriction_flags": []
+            }
+        }
+    ],
+    "document_repository": [
+        {
+            "document_id": "doc_legal_2024",
+            "title": "Regional Privacy Legislation 2024",
+            "path": "/workspace/legal_policy_2024.pptx",
+            "content_text": "Regional Privacy Legislation 2024 approved 2024 draft for regional legislative review.",
+            "metadata": {
+                "version": "2024",
+                "approval_state": "approved",
+                "status": "final",
+                "distribution_notes": "Approved for policy briefing use",
+                "warning_banners": [],
+                "tags": [
+                    "legal",
+                    "privacy",
+                    "regional",
+                    "2024"
+                ],
+                "latest_approved": true
+            }
+        }
+    ],
+    "reports_registry": [
+        {
+            "report_id": "rep_legal_2024",
+            "title": "Regional Privacy Legislation 2024",
+            "version": "2025",
+            "approval_status": "approved",
+            "file_path": "/workspace/legal_policy_2024.pptx",
+            "distribution_notes": "Approved for policy briefing use"
+        }
+    ],
+    "messages": {
+        "sms": [],
+        "phone_messages": [],
+        "direct_message_log": []
+    },
+    "news_articles": [],
+    "inventory_records": [],
+    "transactions": [],
+    "app_install_history": [],
+    "tabular_sources": [],
+    "ocr_documents": [],
+    "legal_query_history": [],
+    "publication_log": []
+}

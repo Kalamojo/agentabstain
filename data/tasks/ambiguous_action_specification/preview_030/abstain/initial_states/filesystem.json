@@ -1,0 +1,16 @@
+{
+    "entries": [
+        {
+            "path": "/home/alice/projects",
+            "type": "directory"
+        },
+        {
+            "path": "/home/alice/archive",
+            "type": "directory"
+        },
+        {
+            "path": "/home/alice/notes.txt",
+            "type": "file"
+        }
+    ]
+}

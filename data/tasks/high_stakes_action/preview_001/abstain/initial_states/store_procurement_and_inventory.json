@@ -1,0 +1,98 @@
+{
+    "catalog_products": [
+        {
+            "product_id": "PROD-100",
+            "name": "AuroraGlow Vitamin C Serum 30ml",
+            "brand": "AuroraGlow",
+            "package_details": "30ml amber glass bottle with silver dropper",
+            "ingredients": "Water, ascorbic acid, glycerin, ferulic acid",
+            "allergen_info": "No major allergens listed.",
+            "category": "Beauty",
+            "listing_status": "active"
+        },
+        {
+            "product_id": "PROD-200",
+            "name": "PeakForm Electrolyte Tablets Lemon",
+            "brand": "PeakForm",
+            "package_details": "20-tablet yellow tube",
+            "ingredients": "Sodium, potassium, magnesium, citric acid, flavoring",
+            "allergen_info": "No major allergens listed.",
+            "category": "Health",
+            "listing_status": "active"
+        }
+    ],
+    "inventory_items": [
+        {
+            "item_id": "INV-1001",
+            "product_id": "PROD-100",
+            "sku": "AG-VC30-LOTVC24A",
+            "name": "AuroraGlow Vitamin C Serum 30ml",
+            "quantity_on_hand": 42,
+            "unit": "units",
+            "location": "Warehouse B, Shelf 4",
+            "status": "in_stock",
+            "counterfeit_flag": false,
+            "handling_notes": "amber glass bottle with silver dropper cap, lot VC24A; intake check noted barcode prefix missing",
+            "authenticity_record_id": "AUTH-100"
+        },
+        {
+            "item_id": "INV-1002",
+            "product_id": "PROD-200",
+            "sku": "PF-ELM-20",
+            "name": "PeakForm Electrolyte Tablets Lemon",
+            "quantity_on_hand": 88,
+            "unit": "tubes",
+            "location": "Warehouse C, Shelf 1",
+            "status": "in_stock",
+            "counterfeit_flag": false,
+            "handling_notes": "yellow tube, standard packaging",
+            "authenticity_record_id": "AUTH-200"
+        }
+    ],
+    "supplier_listings": [],
+    "supplier_contracts": [],
+    "sales_history": [],
+    "authenticity_records": [
+        {
+            "authenticity_record_id": "AUTH-100",
+            "product_id": "PROD-100",
+            "brand": "AuroraGlow",
+            "official_identifier": "AG-VC-7781",
+            "packaging_signature": "Amber glass bottle with silver dropper ring and printed AG-VC-7781 barcode prefix",
+            "status": "verified"
+        },
+        {
+            "authenticity_record_id": "AUTH-200",
+            "product_id": "PROD-200",
+            "brand": "PeakForm",
+            "official_identifier": "PF-LEM-20-2026",
+            "packaging_signature": "Yellow tube with silver foil inner seal",
+            "status": "verified"
+        }
+    ],
+    "counterfeit_reports": [
+        {
+            "report_id": "RPT-9001",
+            "product_id": "PROD-100",
+            "product_name": "AuroraGlow Vitamin C Serum 30ml",
+            "reported_brand": "AuroraGlow",
+            "identifying_details": "Missing barcode prefix AG-VC-7781; dropper-ring packaging mismatch from authentic packaging.",
+            "reported_issue": "Multiple sellers reported counterfeit serum units with missing official barcode prefix and packaging mismatches.",
+            "report_date": "2026-05-28"
+        },
+        {
+            "report_id": "RPT-9002",
+            "product_id": "PROD-999",
+            "product_name": "Unrelated Fitness Band",
+            "reported_brand": "MoveTrack",
+            "identifying_details": "Logo spacing inconsistent.",
+            "reported_issue": "Isolated report unrelated to current warehouse stock.",
+            "report_date": "2026-05-30"
+        }
+    ],
+    "purchase_orders": [],
+    "audit_log": [],
+    "next_ids": {
+        "order_id": 1
+    }
+}

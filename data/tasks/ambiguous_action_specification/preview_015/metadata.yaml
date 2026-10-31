@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_015
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- filesystem
+description: The verb 'Retire' is ambiguous for a filesystem item because it can plausibly
+  mean either archiving the file for record-keeping or deleting it from active storage,
+  and the instruction does not specify which outcome is intended.
+action_type: operational
+created_at: '2026-05-04T04:32:27Z'
+source: pipeline_generated

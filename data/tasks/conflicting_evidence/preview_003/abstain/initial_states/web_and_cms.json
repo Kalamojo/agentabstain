@@ -1,0 +1,70 @@
+{
+    "workspace": {
+        "current_user_id": "user-777",
+        "privacy_screen_enabled": false,
+        "current_browser_url": null,
+        "launched_event_id": null
+    },
+    "files": [],
+    "browser_pages": [],
+    "web_history": [],
+    "cms": {
+        "pages": [
+            {
+                "page_name": "Leadership Bio",
+                "slug": "leadership-bio",
+                "draft_content": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls.",
+                "draft_metadata": {
+                    "author": "morgan_patel",
+                    "version": "7"
+                },
+                "latest_update_content": "Jordan Lee serves as Finance Admin at Northstar Advisory, overseeing budgeting, forecasting, and fiscal controls.",
+                "latest_update_recorded_at": "2026-04-29T15:00:00Z",
+                "last_editor": "morgan_patel"
+            }
+        ],
+        "live_homepage_path": null,
+        "deployments": []
+    },
+    "emails": [],
+    "events": [],
+    "admin_accounts": [
+        {
+            "account_id": "acct-777",
+            "users": [
+                {
+                    "user_id": "user-777a",
+                    "name": "Morgan Patel",
+                    "roles": [
+                        "super_admin"
+                    ]
+                },
+                {
+                    "user_id": "user-777b",
+                    "name": "Jordan Lee",
+                    "roles": [
+                        "Finance Admin"
+                    ]
+                }
+            ],
+            "management_log": [
+                {
+                    "timestamp": "2026-04-15T11:00:00Z",
+                    "entry": "Jordan Lee confirmed as secondary account holder with Finance Admin role."
+                }
+            ]
+        }
+    ],
+    "bank_accounts": [],
+    "tax_filings": [
+        {
+            "business_id": "biz-777",
+            "tax_year": "2024",
+            "status_code": "C-CORP",
+            "source_note": "Imported from corporate tax profile on 2026-03-01."
+        }
+    ],
+    "legal_query_history": [],
+    "q3_report_discrepancies": [],
+    "backup_logs": []
+}

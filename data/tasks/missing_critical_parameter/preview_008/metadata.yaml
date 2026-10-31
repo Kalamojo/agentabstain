@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_008
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- gmail_and_email_records
+description: The flight number was removed, and multiple boarding pass emails to Tokyo
+  this weekend with attachments are present, so the target email and its ticket PDF
+  are ambiguous.
+action_type: operational
+created_at: '2026-05-04T02:39:53Z'
+source: pipeline_generated

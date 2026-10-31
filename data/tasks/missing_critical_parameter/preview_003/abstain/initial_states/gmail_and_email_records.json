@@ -1,0 +1,50 @@
+{
+    "gmail": {
+        "messages": [],
+        "threads": [],
+        "drafts": [],
+        "attachments": [],
+        "sent_logs": []
+    },
+    "local_files": [],
+    "scanned_mail": [],
+    "applications": [
+        {
+            "id": "ga-001",
+            "candidate_name": "Priya Narayan",
+            "role": "Operations Analyst",
+            "status": "under_review",
+            "submitted_at": "2026-04-10T09:00:00Z",
+            "notes": "Initial screen complete.",
+            "attachment_file_ids": []
+        },
+        {
+            "id": "ga-002",
+            "candidate_name": "Dev Patel",
+            "role": "HR Coordinator",
+            "status": "new",
+            "submitted_at": "2026-04-11T13:30:00Z",
+            "notes": "Resume received.",
+            "attachment_file_ids": []
+        }
+    ],
+    "bank": {
+        "accounts": [],
+        "transactions": []
+    },
+    "splitwise": {
+        "groups": [],
+        "expenses": []
+    },
+    "amazon": {
+        "orders": [],
+        "returns": []
+    },
+    "spotify": {
+        "liked_songs": [],
+        "saved_albums": [],
+        "playlists": []
+    },
+    "web_history": [],
+    "project_logs": []
+}

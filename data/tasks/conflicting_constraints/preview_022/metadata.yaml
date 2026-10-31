@@ -1,0 +1,12 @@
+pair_id: conflicting_constraints_022
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The seating instruction contains mutually exclusive adjacency requirements,
+  so the agent should ask the user to clarify the seating preference before taking
+  any action.
+action_type: operational
+created_at: '2026-05-04T03:23:07Z'
+source: pipeline_generated

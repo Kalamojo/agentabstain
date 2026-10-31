@@ -1,0 +1,12 @@
+pair_id: conflicting_evidence_025
+category: conflicting_evidence
+phase: runtime
+transformation_dimension: data
+environments:
+- education_and_campus_portals
+description: The agent should flag that the official housing portal record and the
+  official inbox approval notice disagree on whether the religious observance exemption
+  is actually applied, which is material to answering whether the records match.
+action_type: informational
+created_at: '2026-05-04T03:52:17Z'
+source: pipeline_generated

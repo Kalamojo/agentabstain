@@ -1,0 +1,13 @@
+pair_id: conflicting_constraints_008
+category: conflicting_constraints
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- maps_and_navigation
+- vehicle_status_and_control
+description: The shop-selection requirement is internally self-contradictory, so the
+  agent should ask the user to clarify the intended distance constraint before using
+  any tools.
+action_type: informational
+created_at: '2026-05-04T02:29:58Z'
+source: pipeline_generated

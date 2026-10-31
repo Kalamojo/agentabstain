@@ -1,0 +1,12 @@
+pair_id: missing_critical_parameter_033
+category: missing_critical_parameter
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- clinical_records_and_claims
+description: The patient identifier was removed, and the environment contains multiple
+  plausible patient records matching the remaining context, so the agent cannot determine
+  which patient's claim document to inspect.
+action_type: informational
+created_at: '2026-05-04T03:59:19Z'
+source: pipeline_generated

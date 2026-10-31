@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_016
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- store_procurement_and_inventory
+description: The verb phrase 'reconcile what the purchasing team should use' is ambiguous
+  between reconciling the inventory record itself and reconciling procurement by placing
+  the order quantity, so the intended commit action is unclear.
+action_type: informational
+created_at: '2026-05-04T04:34:32Z'
+source: pipeline_generated

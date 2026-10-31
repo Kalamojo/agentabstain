@@ -1,0 +1,50 @@
+{
+    "places": [
+        {
+            "place_id": "MAP-PLACE-301",
+            "name": "Northlake Crossroads",
+            "city": "Northlake",
+            "region": "Kansas",
+            "country": "United States",
+            "zipcode": "66002",
+            "latitude": 39.12,
+            "longitude": -95.11,
+            "aliases": [],
+            "valid_for_routing": true
+        },
+        {
+            "place_id": "MAP-PLACE-302",
+            "name": "Red Mesa Junction",
+            "city": "Red Mesa",
+            "region": "Kansas",
+            "country": "United States",
+            "zipcode": "67401",
+            "latitude": 38.81,
+            "longitude": -97.61,
+            "aliases": [],
+            "valid_for_routing": true
+        }
+    ],
+    "stations": [],
+    "routes": [
+        {
+            "route_id": "MAP-ROUTE-301",
+            "origin_ref": "MAP-PLACE-301",
+            "destination_ref": "MAP-PLACE-302",
+            "distance_miles": 142.3,
+            "distance_km": 229.0,
+            "duration_minutes": 160.0,
+            "summary": "Regional connector route",
+            "segment_ids": [
+                "MAP-SEG-301"
+            ]
+        }
+    ],
+    "traffic_incidents": [],
+    "vehicles": [],
+    "nearby_businesses": [],
+    "ip_geo_records": [],
+    "map_notes": [],
+    "location_check_logs": [],
+    "tweets": []
+}

@@ -1,0 +1,62 @@
+{
+    "accounts": [
+        {
+            "account_id": "acct_sp_100",
+            "account_name": "maria_santos",
+            "account_type": "user",
+            "email": "maria.santos@example.com",
+            "security_settings": {
+                "two_factor_enabled": true,
+                "recovery_email": "maria.backup@example.com",
+                "recovery_phone": "+15551002000",
+                "backup_codes_remaining": 8,
+                "last_password_change": "2026-01-12T10:00:00Z"
+            },
+            "preference_center": {
+                "global_opt_out": true,
+                "marketing_email_opt_in": false,
+                "sms_opt_in": false,
+                "push_opt_in": false,
+                "updated_at": "2026-03-01T08:00:00Z"
+            },
+            "saved_payment_cards": [],
+            "location_sharing": {
+                "current_enabled": false,
+                "shared_with": [],
+                "recent_changes": []
+            },
+            "signal_tool_orders": [],
+            "credit_products": [
+                {
+                    "application_id": "app_sec_100",
+                    "product_type": "secured_card",
+                    "status": "in_review",
+                    "status_reason": "Application under standard review",
+                    "secured_deposit_amount": 300.0,
+                    "updated_at": "2026-03-21T09:00:00Z"
+                }
+            ],
+            "bank_transactions": [
+                {
+                    "transaction_id": "tx_sp_100",
+                    "posted_at": "2026-04-15T10:00:00Z",
+                    "amount": -75.0,
+                    "merchant": "CreditCare Counseling",
+                    "currency": "USD",
+                    "description": "Monthly counseling session",
+                    "category": "health"
+                }
+            ],
+            "tax_filings": []
+        }
+    ],
+    "breach_records": [],
+    "admin_role_audit": {
+        "current_users": [],
+        "management_log": []
+    },
+    "cms_pages": [],
+    "browser_containers": [],
+    "network_devices": [],
+    "routers": []
+}

@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_004
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The request to 'process' the reservation is ambiguous because it could
+  reasonably mean directly changing the booking outcome or initiating a support/claims
+  workflow, and the user's intent cannot be determined from the reservation data alone.
+action_type: operational
+created_at: '2026-05-04T03:20:51Z'
+source: pipeline_generated

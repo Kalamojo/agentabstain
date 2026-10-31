@@ -1,0 +1,12 @@
+pair_id: ambiguous_action_specification_014
+category: ambiguous_action_specification
+phase: pre_execution
+transformation_dimension: instruction
+environments:
+- flight_and_travel_management
+description: The instruction is ambiguous because 'resolve the cancelled flight' could
+  mean filing for compensation or rebooking the disrupted trip, and those require
+  different commit actions.
+action_type: operational
+created_at: '2026-05-04T04:32:16Z'
+source: pipeline_generated
