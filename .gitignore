@@ -9,6 +9,7 @@ logs/
 results/
 data/
 token_usage/
+.vscode/
 
 # generated analysis artifacts (regenerate via eval/statistics scripts)
 eval/statistics/figures/

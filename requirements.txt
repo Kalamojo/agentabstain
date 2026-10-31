@@ -3,10 +3,11 @@ PyYAML
 python-dotenv
 pydantic
 fastmcp
-mcp
+mcp<2
 openai
 anthropic
 tqdm
+boto3
 
 # Agent harness SDKs
 openai-agents
