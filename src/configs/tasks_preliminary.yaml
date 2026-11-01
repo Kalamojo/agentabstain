@@ -1,0 +1,13 @@
+tasks:
+- category: aaa_preliminary
+  task_id: preview_001
+  task_type: act
+- category: aaa_preliminary
+  task_id: preview_001
+  task_type: ask
+- category: aaa_preliminary
+  task_id: preview_001
+  task_type: inspect
+- category: aaa_preliminary
+  task_id: preview_001
+  task_type: abstain

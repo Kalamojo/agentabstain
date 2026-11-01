@@ -57,7 +57,7 @@ def _write_eval_if_changed(output_path: Path, new_payload: dict) -> bool:
 # Unknown task_types surfaced at load time are flagged via a
 # `task_type_unknown` metric rather than silently dropped, so schema
 # drift is visible in the aggregate.
-KNOWN_TASK_TYPES = frozenset({"act", "abstain"})
+KNOWN_TASK_TYPES = frozenset({"act", "ask", "inspect", "abstain"})
 
 
 # Classification of provider-/runtime-level run errors. These are runs

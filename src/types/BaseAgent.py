@@ -111,7 +111,7 @@ class BaseAgent(ABC):
 
     @classmethod
     def resolve_task_dir(cls, category: str, task_id: str | int, task_type: str) -> Path:
-        if task_type not in {"act", "abstain"}:
+        if task_type not in {"act", "ask", "inspect", "abstain"}:
             raise ValueError(f"task_type must be 'act' or 'abstain', got: {task_type}")
         normalized_task_id = cls.normalize_task_id(task_id)
         return cls.TASKS_ROOT / category / normalized_task_id / task_type

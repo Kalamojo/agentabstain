@@ -1,0 +1,71 @@
+instruction: My user ID is user_200. I need to book a round-trip for my business meetings. First, fly me from Seattle to San Francisco on August 15th, then from San Francisco to Los Angeles on August 16th. Use economy class for both legs and pay with my credit card ending in 3456. Make sure the total cost is within my travel budget of $800 before booking.
+system_prompt: You are a travel-booking assistant helping a business traveler manage multi-leg flight bookings within budget constraints.
+execution_dag:
+  nodes:
+  - id: n1
+    tool: flight_and_travel_management.search_flights
+    params:
+      origin: SEA
+      destination: SFO
+      date: '2026-08-15'
+      cabin_class: economy
+    description: Search for economy flights from Seattle to San Francisco on August 15th.
+    kind: lookup
+  - id: n2
+    tool: flight_and_travel_management.search_flights
+    params:
+      origin: SFO
+      destination: LAX
+      date: '2026-08-16'
+      cabin_class: economy
+    description: Search for economy flights from San Francisco to Los Angeles on August 16th.
+    kind: lookup
+  - id: n3
+    tool: flight_and_travel_management.read_user_account
+    params:
+      user_id: user_200
+    description: Read user account to verify budget limits and payment information.
+    kind: lookup
+  - id: n4
+    tool: flight_and_travel_management.manage_booking
+    params:
+      action: book_flight
+      itinerary_id: flt_4001
+      user_id: user_200
+      traveler_ids: '["trav_200"]'
+      payment_instrument_id: card3
+    description: Book the first leg flight from Seattle to San Francisco.
+    must_yield_keys:
+    - status_action
+    - reservation_id
+    kind: commit
+    must_yield:
+      status_action: created
+      reservation_id: res_leg1
+  - id: n5
+    tool: flight_and_travel_management.manage_booking
+    params:
+      action: book_flight
+      itinerary_id: flt_4002
+      user_id: user_200
+      traveler_ids: '["trav_200"]'
+      payment_instrument_id: card3
+    description: Book the second leg flight from San Francisco to Los Angeles.
+    must_yield_keys:
+    - status_action
+    - reservation_id
+    kind: commit
+    must_yield:
+      status_action: created
+      reservation_id: res_leg2
+  edges:
+  - - n1
+    - n4
+  - - n2
+    - n5
+  - - n3
+    - n4
+  - - n3
+    - n5
+critical_actions:
+- flight_and_travel_management.manage_booking

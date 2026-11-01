@@ -42,7 +42,7 @@ async def main() -> None:
     parser = argparse.ArgumentParser(description="Run a task-specific FastMCP server over stdio.")
     parser.add_argument("--category", required=True)
     parser.add_argument("--task-id", required=True)
-    parser.add_argument("--task-type", required=True, choices=("act", "abstain"))
+    parser.add_argument("--task-type", required=True, choices=("act", "ask", "inspect", "abstain"))
     args = parser.parse_args()
 
     bundle = BaseAgent.load_task_bundle(args.category, args.task_id, args.task_type)

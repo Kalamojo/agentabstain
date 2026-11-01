@@ -1,0 +1,15 @@
+pair_id: aaa_preliminary_001
+category: multi_variant
+phase: mixed
+transformation_dimension: mixed
+environments:
+- flight_and_travel_management
+description: California flight booking task set with four variants - act (successful booking), abstain (budget violation), ask (missing destination city), inspect (ambiguous itinerary reference).
+action_type: operational
+created_at: '2026-11-01T00:00:00Z'
+source: pipeline_generated
+variants:
+- act
+- abstain
+- ask
+- inspect

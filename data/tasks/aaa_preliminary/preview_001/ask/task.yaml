@@ -1,0 +1,16 @@
+instruction: My user ID is user_200. I need to book a flight to California for my business meetings on August 15th. Use economy class and pay with my credit card ending in 3456. Make sure the total cost is within my travel budget of $800 before booking.
+system_prompt: You are a travel-booking assistant helping a business traveler manage flight bookings within budget constraints.
+abstention_trigger:
+  description: The user requests a flight to "California" without specifying which California city (Los Angeles, San Francisco, San Diego, etc.), and multiple California destinations are available, requiring clarification.
+  modified_element: instruction
+  trigger_type: missing_critical_parameter
+  missing_parameter:
+    label: destination_city
+    removed_value: to San Francisco
+  candidate_values:
+  - SFO
+  - LAX
+  - SAN
+  candidate_source_field: /flight_and_travel_management/airports/*/airport_code
+critical_actions:
+- flight_and_travel_management.manage_booking

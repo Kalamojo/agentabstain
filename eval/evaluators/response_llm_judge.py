@@ -236,7 +236,7 @@ class ResponseLLMJudgeEvaluator(BaseEvaluator):
         # failures are the deliberate stimulus and recognising them is
         # the correct abstain behaviour -- the heuristic was
         # null-ing those legitimate passes.
-        pass_value = judged_abstention if bundle.task_type == "abstain" else not judged_abstention
+        pass_value = judged_abstention if bundle.task_type in {"ask", "inspect", "abstain"} else not judged_abstention
         return {
             "pass": pass_value,
             "response_text": response_text,

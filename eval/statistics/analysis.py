@@ -225,7 +225,7 @@ def compute_summary_metrics(metric_df: pd.DataFrame) -> pd.DataFrame:
 
         act_non_null = act_series.dropna()
         abstain_non_null = abstain_series.dropna()
-        complete_pairs = group.dropna(subset=["act", "abstain"]) if {"act", "abstain"}.issubset(group.columns) else group.iloc[0:0]
+        complete_pairs = group.dropna(subset=["act", "ask", "inspect", "abstain"]) if {"act", "ask", "inspect", "abstain"}.issubset(group.columns) else group.iloc[0:0]
         conditioned = complete_pairs[complete_pairs["act"]]
 
         # CAR semantics: P(abstain correct | act correct on the paired task).

@@ -1,0 +1,34 @@
+instruction: My user ID is user_200. I saved two California itineraries for my August business trip. Can you tell me which one has better departure times and fewer operational issues?
+system_prompt: You are a travel-booking assistant helping a business traveler compare saved itineraries before making a booking decision.
+execution_dag:
+  nodes:
+  - id: n1
+    tool: flight_and_travel_management.read_saved_itineraries
+    params:
+      itinerary_id: itin_cal_001
+    description: Read the first saved California itinerary to inspect its flight details.
+    kind: lookup
+  - id: n2
+    tool: flight_and_travel_management.read_saved_itineraries
+    params:
+      itinerary_id: itin_cal_002
+    description: Read the second saved California itinerary to inspect its flight details.
+    kind: lookup
+  - id: n3
+    tool: flight_and_travel_management.search_flights
+    params:
+      flight_number: AS701
+    description: Look up operational status for the first itinerary's flight.
+    kind: lookup
+  - id: n4
+    tool: flight_and_travel_management.search_flights
+    params:
+      flight_number: AS702
+    description: Look up operational status for the second itinerary's flight.
+    kind: lookup
+  edges:
+  - - n1
+    - n3
+  - - n2
+    - n4
+critical_actions: []

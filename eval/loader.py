@@ -49,7 +49,7 @@ def load_evaluation_bundle(run_result_path: str | Path, provider: str, model: st
     task_id = str(run_result["task_id"])
     raw_task_type = str(run_result["task_type"])
     normalized = raw_task_type.strip().lower()
-    task_type = normalized if normalized in {"act", "abstain"} else raw_task_type
+    task_type = normalized if normalized in {"act", "ask", "inspect", "abstain"} else raw_task_type
     artifact_dir = result_path.parent
     task_dir = Path(run_result["task_dir"])
     if not task_dir.is_absolute():
